@@ -10,7 +10,7 @@ Claude Code updates this file at the end of every stage. Status values: `todo`, 
 | S03 | Pattern mining | done | 2026-11-25 | `scripts/s03_patterns.py`, `src/bgllog/patterns.py`, `reports/tables/{frequent_itemsets,association_rules,sequential_patterns_prealert,pattern_examples}.csv`, `artifacts/patterns/*`, `reports/figures/pat_*.png`, notes (ID + EN) | 606 P + 606 C windows, 83 rules, 293 sequences; 4 honesty checks pass; low recall |
 | S04 | Training code + handoff package | done | 2026-11-25 | `src/bgllog/{models,train,embed}.py`, `scripts/{train,check_gpu,s04_make_handoff}.py`, `scripts/train_all.ps1`, `docs/GPU-HANDOFF-FRIEND.md`, notes (ID + EN) | 43 tests pass; train_all.ps1 untested on Windows; GPU teammate account still to confirm |
 | S05 | GPU hand-off, merge, embeddings | done | 2026-11-25 | `handoff/results/{lstm,gru}/`, `artifacts/models/{lstm,gru}/`, `artifacts/embeddings/*`, `reports/tables/dl_model_comparison.csv`, `reports/figures/dl_loss_curves.png`, notes (ID + EN) | RTX 5060/CUDA 12.8; models pushed on `gpu-run`; all-window top-1 below bigram, UNK-free top-1 above |
-| S06 | Clustering | blocked | | `docs/BLOCKERS.md` | no local raw/parsed BGL data; Zenodo DNS lookup failed |
+| S06 | Clustering | done | 2026-11-25 | `artifacts/clusters/`, `reports/tables/clustering_*.csv`, `reports/figures/clu_*.png`, notes (ID + EN) | LSTM selected by validation tie-break; KMeans tag NMI 0.0959, HDBSCAN noise 21.46%; 51 tests pass, 1 skipped |
 | S07 | Evaluation + analysis | todo | | | |
 | S08 | Streamlit app | todo | | | |
 | S09 | Report draft + defense pack + final check | todo | | | |
@@ -38,4 +38,4 @@ Record every deviation from the specs here (date, stage, what, why).
 
 ## Next action
 
-S05 results are on `origin/gpu-run`; S05 extraction and validation are complete locally. S06 is blocked until Nafi provides `data/raw/BGL.log` or `data/interim/parsed.parquet`, or network access to Zenodo is restored; see `docs/BLOCKERS.md`.
+S05 and S06 are complete. Continue with S07 evaluation and analysis.

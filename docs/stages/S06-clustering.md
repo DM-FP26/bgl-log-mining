@@ -55,12 +55,12 @@ Save as `artifacts/clusters/cluster_profiles.json` and `reports/tables/cluster_p
 - `reports/results.json` → `clustering`, `sanity`.
 
 ## Definition of done
-- [ ] Metrics table has every representation × {KMeans chosen k} (test split) and the HDBSCAN row for the best representation.
-- [ ] The three-seed mean ± std is reported.
-- [ ] Shuffled-label sanity result stored and in the note.
-- [ ] Cluster profiles exist with template text; at least three clusters are described in plain language in the note.
-- [ ] No model was fit on val/test (code review: grep that `fit` calls only receive train arrays).
-- [ ] The app artifacts exist and are small.
+- [x] Metrics table has every representation × {KMeans chosen k} (test split) and the HDBSCAN row for the best representation.
+- [x] The three-seed mean ± std is reported.
+- [x] Shuffled-label sanity result stored and in the note.
+- [x] Cluster profiles exist with template text; at least three clusters are described in plain language in the note.
+- [x] No model was fit on val/test (code review: grep that `fit` calls only receive train arrays).
+- [x] The app artifacts exist and are small.
 
 ## Pitfalls
 - Do not compute full silhouette on hundreds of thousands of points.

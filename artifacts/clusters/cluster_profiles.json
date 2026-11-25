@@ -1,0 +1,4443 @@
+[
+  {
+    "cluster": 0,
+    "size": 147,
+    "share": 0.002064142889238373,
+    "alert_window_rate": 0.027210884353741496,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 143
+      },
+      {
+        "tag": "APPSEV",
+        "count": 2
+      },
+      {
+        "tag": "KERNSOCK",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "count": 2092,
+        "frequency": 0.7363604364660331
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.",
+        "count": 221,
+        "frequency": 0.07778951073565646
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card",
+        "count": 190,
+        "frequency": 0.06687785990848293
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional",
+        "count": 180,
+        "frequency": 0.06335797254487856
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 23,
+        "frequency": 0.008095740936290039
+      },
+      {
+        "event_id": 214,
+        "template": "Ido packet timeout",
+        "count": 18,
+        "frequency": 0.006335797254487857
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "count": 16,
+        "frequency": 0.005631819781766983
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 15,
+        "frequency": 0.005279831045406547
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "count": 14,
+        "frequency": 0.004927842309046111
+      },
+      {
+        "event_id": 178,
+        "template": "LinkCard power module U58 is not accessible",
+        "count": 11,
+        "frequency": 0.003871876099964801
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "lift": 148.32863142573106,
+        "frequency": 0.7363604364660331
+      },
+      {
+        "event_id": 180,
+        "template": "LinkCard is not fully functional",
+        "lift": 54.95080389685595,
+        "frequency": 0.0031678986272439284
+      },
+      {
+        "event_id": 178,
+        "template": "LinkCard power module U58 is not accessible",
+        "lift": 52.21379067593974,
+        "frequency": 0.003871876099964801
+      },
+      {
+        "event_id": 265,
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties <*> --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>",
+        "lift": 42.061109155618134,
+        "frequency": 0.0007039774727208729
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "lift": 39.47634825778685,
+        "frequency": 0.004927842309046111
+      },
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "lift": 32.49356072107838,
+        "frequency": 0.0017599436818021823
+      },
+      {
+        "event_id": 13,
+        "template": "idoproxydb has been started: $Name: <*> $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1",
+        "lift": 26.564911045653556,
+        "frequency": 0.0007039774727208729
+      },
+      {
+        "event_id": 228,
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <IP> --consoleport <NUM> --configfile bglmaster.init --autorestart y",
+        "lift": 25.664405586478857,
+        "frequency": 0.00035198873636043646
+      },
+      {
+        "event_id": 14,
+        "template": "ciodb has been restarted.",
+        "lift": 23.47596790081012,
+        "frequency": 0.0007039774727208729
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.",
+        "lift": 19.80459161046919,
+        "frequency": 0.07778951073565646
+      }
+    ],
+    "mean_ts_start": 1133040131.0816326,
+    "representative_events": [
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "size": 60,
+    "share": 0.0008425073017299484,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 60
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 887,
+        "frequency": 0.7416387959866221
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 201,
+        "frequency": 0.16806020066889632
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 65,
+        "frequency": 0.05434782608695652
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 34,
+        "frequency": 0.028428093645484948
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 5,
+        "frequency": 0.004180602006688963
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 2,
+        "frequency": 0.0016722408026755853
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 1,
+        "frequency": 0.0008361204013377926
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "count": 1,
+        "frequency": 0.0008361204013377926
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "lift": 11.91702091149557,
+        "frequency": 0.7416387959866221
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 6.78258662226763,
+        "frequency": 0.05434782608695652
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "lift": 1.9571917166647503,
+        "frequency": 0.028428093645484948
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 1.6321155438498078,
+        "frequency": 0.16806020066889632
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "lift": 0.2525439957543811,
+        "frequency": 0.0016722408026755853
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "lift": 0.10598007777282102,
+        "frequency": 0.0008361204013377926
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "lift": 0.08938247019303033,
+        "frequency": 0.004180602006688963
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "lift": 0.07749176705299407,
+        "frequency": 0.0008361204013377926
+      }
+    ],
+    "mean_ts_start": 1131524390.0,
+    "representative_events": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "size": 1093,
+    "share": 0.015347674679847226,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 1093
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 21851,
+        "frequency": 0.9995882891125343
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 6,
+        "frequency": 0.0002744739249771272
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 2,
+        "frequency": 9.149130832570906e-05
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 1,
+        "frequency": 4.574565416285453e-05
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "lift": 16.06188161771276,
+        "frequency": 0.9995882891125343
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "lift": 0.006298910965855018,
+        "frequency": 9.149130832570906e-05
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 0.005709039059914199,
+        "frequency": 4.574565416285453e-05
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 0.002665551734162268,
+        "frequency": 0.0002744739249771272
+      }
+    ],
+    "mean_ts_start": 1131515212.3741994,
+    "representative_events": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "size": 1590,
+    "share": 0.02232644349584363,
+    "alert_window_rate": 0.008176100628930818,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 1577
+      },
+      {
+        "tag": "KERNMC",
+        "count": 6
+      },
+      {
+        "tag": "KERNTERM",
+        "count": 2
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 31048,
+        "frequency": 0.9870922617155211
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 60,
+        "frequency": 0.001907547529725949
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 47,
+        "frequency": 0.0014942455649519933
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "count": 43,
+        "frequency": 0.00136707572963693
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 31,
+        "frequency": 0.0009855662236917403
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 28,
+        "frequency": 0.0008901888472054428
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 27,
+        "frequency": 0.000858396388376677
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 21,
+        "frequency": 0.0006676416354040822
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "count": 17,
+        "frequency": 0.0005404718000890189
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 16,
+        "frequency": 0.0005086793412602531
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "lift": 67.95843654892165,
+        "frequency": 0.9870922617155211
+      },
+      {
+        "event_id": 224,
+        "template": "Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ]",
+        "lift": 5.470645386914224,
+        "frequency": 6.358491765753163e-05
+      },
+      {
+        "event_id": 205,
+        "template": "DCR <HEX> : <HEX>",
+        "lift": 4.208188759164788,
+        "frequency": 0.00012716983531506327
+      },
+      {
+        "event_id": 123,
+        "template": "Running as background command",
+        "lift": 3.907603847795874,
+        "frequency": 6.358491765753163e-05
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "lift": 3.8895130892412637,
+        "frequency": 0.00136707572963693
+      },
+      {
+        "event_id": 121,
+        "template": "Starting SystemController",
+        "lift": 3.8525671738832563,
+        "frequency": 6.358491765753163e-05
+      },
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "lift": 3.4712216922044568,
+        "frequency": 0.00015896229414382907
+      },
+      {
+        "event_id": 228,
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <IP> --consoleport <NUM> --configfile bglmaster.init --autorestart y",
+        "lift": 2.3180700792009423,
+        "frequency": 3.179245882876582e-05
+      },
+      {
+        "event_id": 154,
+        "template": "Kill job <NUM> timed out. Block freed.",
+        "lift": 2.234740762628359,
+        "frequency": 0.00015896229414382907
+      },
+      {
+        "event_id": 265,
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties <*> --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>",
+        "lift": 1.8995296482341055,
+        "frequency": 3.179245882876582e-05
+      }
+    ],
+    "mean_ts_start": 1133270018.155346,
+    "representative_events": [
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "size": 4200,
+    "share": 0.058975511121096384,
+    "alert_window_rate": 0.006666666666666667,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 4172
+      },
+      {
+        "tag": "APPSEV",
+        "count": 11
+      },
+      {
+        "tag": "KERNRTSP",
+        "count": 9
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 74239,
+        "frequency": 0.9258926678390142
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 4140,
+        "frequency": 0.051633179930407454
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 674,
+        "frequency": 0.008405981466931068
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "count": 474,
+        "frequency": 0.005911624948553897
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 145,
+        "frequency": 0.0018084084758234495
+      },
+      {
+        "event_id": 119,
+        "template": "<NUM> torus <*> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 67,
+        "frequency": 0.0008356094336563525
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 25,
+        "frequency": 0.00031179456479714645
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 24,
+        "frequency": 0.0002993227822052606
+      },
+      {
+        "event_id": 35,
+        "template": "floating pt ex mode <NUM> enable......<NUM>",
+        "count": 21,
+        "frequency": 0.00026190743442960305
+      },
+      {
+        "event_id": 50,
+        "template": "<NUM>:<HEXW> <NUM>:<HEXW> <*> <*>",
+        "count": 19,
+        "frequency": 0.0002369638692458313
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "lift": 19.795850849387797,
+        "frequency": 0.9258926678390142
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "lift": 7.797710444731749,
+        "frequency": 0.051633179930407454
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "lift": 4.608283946178881,
+        "frequency": 0.008405981466931068
+      },
+      {
+        "event_id": 136,
+        "template": "external input interrupt (unit=<HEX> bit=<HEX>): number of corrected SRAM errors has exceeded threshold",
+        "lift": 4.1270490898956504,
+        "frequency": 3.7415347775657576e-05
+      },
+      {
+        "event_id": 182,
+        "template": "no ethernet link",
+        "lift": 3.832259869188817,
+        "frequency": 1.2471782591885858e-05
+      },
+      {
+        "event_id": 169,
+        "template": "MailboxMonitor::serviceMailboxes() lib_ido_error: -<NUM> socket closed",
+        "lift": 3.1935498909906808,
+        "frequency": 0.00012471782591885858
+      },
+      {
+        "event_id": 119,
+        "template": "<NUM> torus <*> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "lift": 2.9537056345925317,
+        "frequency": 0.0008356094336563525
+      },
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "lift": 2.7234334095758093,
+        "frequency": 0.00012471782591885858
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "lift": 2.4249906066498514,
+        "frequency": 0.005911624948553897
+      },
+      {
+        "event_id": 224,
+        "template": "Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ]",
+        "lift": 2.146065526745738,
+        "frequency": 2.4943565183771716e-05
+      }
+    ],
+    "mean_ts_start": 1132415820.0595238,
+    "representative_events": [
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected"
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "size": 314,
+    "share": 0.004409121545720063,
+    "alert_window_rate": 0.0031847133757961785,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 313
+      },
+      {
+        "tag": "KERNSERV",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional",
+        "count": 1892,
+        "frequency": 0.30545689376816276
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card",
+        "count": 1891,
+        "frequency": 0.3052954472069745
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.",
+        "count": 1870,
+        "frequency": 0.30190506942202133
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "count": 322,
+        "frequency": 0.051985792702615434
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "count": 104,
+        "frequency": 0.016790442363577657
+      },
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "count": 52,
+        "frequency": 0.008395221181788828
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>",
+        "count": 26,
+        "frequency": 0.004197610590894414
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 7,
+        "frequency": 0.0011301259283177268
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 5,
+        "frequency": 0.0008072328059412334
+      },
+      {
+        "event_id": 123,
+        "template": "Running as background command",
+        "count": 4,
+        "frequency": 0.0006457862447529867
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "lift": 154.99963553265587,
+        "frequency": 0.008395221181788828
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "lift": 134.5062014119509,
+        "frequency": 0.016790442363577657
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.",
+        "lift": 76.86263287285122,
+        "frequency": 0.30190506942202133
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card",
+        "lift": 75.89325496698906,
+        "frequency": 0.3052954472069745
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional",
+        "lift": 75.67537979736356,
+        "frequency": 0.30545689376816276
+      },
+      {
+        "event_id": 172,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD is OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.",
+        "lift": 56.6953140959322,
+        "frequency": 0.0006457862447529867
+      },
+      {
+        "event_id": 224,
+        "template": "Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ]",
+        "lift": 55.561407814013556,
+        "frequency": 0.0006457862447529867
+      },
+      {
+        "event_id": 123,
+        "template": "Running as background command",
+        "lift": 39.68671986715254,
+        "frequency": 0.0006457862447529867
+      },
+      {
+        "event_id": 121,
+        "template": "Starting SystemController",
+        "lift": 29.345813986274766,
+        "frequency": 0.00048433968356474005
+      },
+      {
+        "event_id": 151,
+        "template": "PrepareForService is being done on this part (mLctn(<NODE>), mCardSernum(<HEXW>), <*> mIp(<IP>), mType(<NUM>)) by <*>",
+        "lift": 10.603322101910983,
+        "frequency": 0.00032289312237649337
+      }
+    ],
+    "mean_ts_start": 1133004639.0382166,
+    "representative_events": [
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional"
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card"
+      },
+      {
+        "event_id": 115,
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK."
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 13,
+    "size": 14,
+    "share": 0.00019658503707032128,
+    "alert_window_rate": 0.07142857142857142,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 13
+      },
+      {
+        "tag": "KERNSOCK",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>",
+        "count": 149,
+        "frequency": 0.5643939393939394
+      },
+      {
+        "event_id": 214,
+        "template": "Ido packet timeout",
+        "count": 113,
+        "frequency": 0.42803030303030304
+      },
+      {
+        "event_id": 176,
+        "template": "PrepareForService is being done on this Midplane (mLctn(<NODE>), <*> <*> by <*>",
+        "count": 1,
+        "frequency": 0.003787878787878788
+      },
+      {
+        "event_id": 178,
+        "template": "LinkCard power module U58 is not accessible",
+        "count": 1,
+        "frequency": 0.003787878787878788
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 214,
+        "template": "Ido packet timeout",
+        "lift": 430.6171035660629,
+        "frequency": 0.42803030303030304
+      },
+      {
+        "event_id": 176,
+        "template": "PrepareForService is being done on this Midplane (mLctn(<NODE>), <*> <*> by <*>",
+        "lift": 65.44118899841791,
+        "frequency": 0.003787878787878788
+      },
+      {
+        "event_id": 178,
+        "template": "LinkCard power module U58 is not accessible",
+        "lift": 51.081053481523696,
+        "frequency": 0.003787878787878788
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>",
+        "lift": 28.818202409855235,
+        "frequency": 0.5643939393939394
+      }
+    ],
+    "mean_ts_start": 1132183228.357143,
+    "representative_events": [
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 237,
+        "template": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source line=<NUM> Function=int <*> <*>"
+      },
+      {
+        "event_id": 178,
+        "template": "LinkCard power module U58 is not accessible"
+      }
+    ]
+  },
+  {
+    "cluster": 14,
+    "size": 18,
+    "share": 0.0002527521905189845,
+    "alert_window_rate": 0.2222222222222222,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 14
+      },
+      {
+        "tag": "KERNMC",
+        "count": 2
+      },
+      {
+        "tag": "KERNRTSP",
+        "count": 2
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 205,
+        "template": "DCR <HEX> : <HEX>",
+        "count": 133,
+        "frequency": 0.39002932551319647
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>",
+        "count": 22,
+        "frequency": 0.06451612903225806
+      },
+      {
+        "event_id": 27,
+        "template": "d-cache <*> parity <*>",
+        "count": 18,
+        "frequency": 0.05278592375366569
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>",
+        "count": 18,
+        "frequency": 0.05278592375366569
+      },
+      {
+        "event_id": 35,
+        "template": "floating pt ex mode <NUM> enable......<NUM>",
+        "count": 15,
+        "frequency": 0.04398826979472141
+      },
+      {
+        "event_id": 34,
+        "template": "floating point <*> <*>",
+        "count": 10,
+        "frequency": 0.02932551319648094
+      },
+      {
+        "event_id": 28,
+        "template": "imprecise machine check...........<NUM>",
+        "count": 9,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>",
+        "count": 9,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 25,
+        "template": "tlb error.........................<NUM>",
+        "count": 9,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>",
+        "count": 9,
+        "frequency": 0.026392961876832845
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 205,
+        "template": "DCR <HEX> : <HEX>",
+        "lift": 12906.496413264154,
+        "frequency": 0.39002932551319647
+      },
+      {
+        "event_id": 28,
+        "template": "imprecise machine check...........<NUM>",
+        "lift": 392.86626957148223,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 27,
+        "template": "d-cache <*> parity <*>",
+        "lift": 386.18487042911005,
+        "frequency": 0.05278592375366569
+      },
+      {
+        "event_id": 25,
+        "template": "tlb error.........................<NUM>",
+        "lift": 383.5755131964809,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 26,
+        "template": "i-cache parity error..............<NUM>",
+        "lift": 383.5755131964809,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>",
+        "lift": 382.92867421975836,
+        "frequency": 0.05278592375366569
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>",
+        "lift": 381.0011808931489,
+        "frequency": 0.026392961876832845
+      },
+      {
+        "event_id": 65,
+        "template": "machine check interrupt (bit=<HEX>): <*> <*> <*> <*>",
+        "lift": 203.47374893576767,
+        "frequency": 0.002932551319648094
+      },
+      {
+        "event_id": 67,
+        "template": "start <*>",
+        "lift": 197.11519428152496,
+        "frequency": 0.008797653958944282
+      },
+      {
+        "event_id": 66,
+        "template": "L3 <*> <*> register: <*>",
+        "lift": 176.43877530094537,
+        "frequency": 0.005865102639296188
+      }
+    ],
+    "mean_ts_start": 1132959458.6111112,
+    "representative_events": [
+      {
+        "event_id": 20,
+        "template": "machine check <*>"
+      },
+      {
+        "event_id": 19,
+        "template": "instruction address: <HEX>"
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>"
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>"
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>"
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>"
+      },
+      {
+        "event_id": 25,
+        "template": "tlb error.........................<NUM>"
+      },
+      {
+        "event_id": 26,
+        "template": "i-cache parity error..............<NUM>"
+      },
+      {
+        "event_id": 27,
+        "template": "d-cache <*> parity <*>"
+      },
+      {
+        "event_id": 27,
+        "template": "d-cache <*> parity <*>"
+      },
+      {
+        "event_id": 28,
+        "template": "imprecise machine check...........<NUM>"
+      },
+      {
+        "event_id": 30,
+        "template": "wait state enable.................<NUM>"
+      },
+      {
+        "event_id": 31,
+        "template": "critical input interrupt enable...<NUM>"
+      },
+      {
+        "event_id": 32,
+        "template": "external input interrupt enable...<NUM>"
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>"
+      },
+      {
+        "event_id": 34,
+        "template": "floating point <*> <*>"
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 15,
+    "size": 238,
+    "share": 0.0033419456301954616,
+    "alert_window_rate": 0.08403361344537816,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 218
+      },
+      {
+        "tag": "KERNRTSP",
+        "count": 11
+      },
+      {
+        "tag": "KERNMC",
+        "count": 6
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 35,
+        "template": "floating pt ex mode <NUM> enable......<NUM>",
+        "count": 295,
+        "frequency": 0.06836616454229433
+      },
+      {
+        "event_id": 44,
+        "template": "guaranteed <*> cache block <*>",
+        "count": 264,
+        "frequency": 0.0611819235225956
+      },
+      {
+        "event_id": 46,
+        "template": "icache prefetch <*>",
+        "count": 230,
+        "frequency": 0.05330243337195829
+      },
+      {
+        "event_id": 67,
+        "template": "start <*>",
+        "count": 213,
+        "frequency": 0.04936268829663963
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>",
+        "count": 158,
+        "frequency": 0.036616454229432216
+      },
+      {
+        "event_id": 38,
+        "template": "instruction address space.........<NUM>",
+        "count": 154,
+        "frequency": 0.03568945538818077
+      },
+      {
+        "event_id": 39,
+        "template": "data address space................<NUM>",
+        "count": 154,
+        "frequency": 0.03568945538818077
+      },
+      {
+        "event_id": 41,
+        "template": "disable store gathering..................<NUM>",
+        "count": 150,
+        "frequency": 0.03476245654692932
+      },
+      {
+        "event_id": 37,
+        "template": "debug interrupt enable............<NUM>",
+        "count": 150,
+        "frequency": 0.03476245654692932
+      },
+      {
+        "event_id": 42,
+        "template": "disable apu instruction broadcast........<NUM>",
+        "count": 147,
+        "frequency": 0.03406720741599073
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 67,
+        "template": "start <*>",
+        "lift": 1105.992113267671,
+        "frequency": 0.04936268829663963
+      },
+      {
+        "event_id": 68,
+        "template": "disable speculative access...............<NUM>",
+        "lift": 976.1808323677096,
+        "frequency": 0.01089223638470452
+      },
+      {
+        "event_id": 69,
+        "template": "close EDRAM pages as soon as possible....<NUM>",
+        "lift": 955.4110274237157,
+        "frequency": 0.010660486674391657
+      },
+      {
+        "event_id": 70,
+        "template": "size of scratchpad portion of L3.........<NUM> (0M)",
+        "lift": 893.1016125917344,
+        "frequency": 0.00996523754345307
+      },
+      {
+        "event_id": 71,
+        "template": "disable all access to cache directory....<NUM>",
+        "lift": 810.022392815759,
+        "frequency": 0.009038238702201622
+      },
+      {
+        "event_id": 72,
+        "template": "write buffer commit threshold............<NUM>",
+        "lift": 747.7129779837775,
+        "frequency": 0.008342989571263035
+      },
+      {
+        "event_id": 73,
+        "template": "size of DDR we are caching...............<NUM> (512M)",
+        "lift": 664.6337582078023,
+        "frequency": 0.0074159907300115875
+      },
+      {
+        "event_id": 74,
+        "template": "prefetch depth for <*> <*>",
+        "lift": 540.0149285438393,
+        "frequency": 0.018076477404403244
+      },
+      {
+        "event_id": 66,
+        "template": "L3 <*> <*> register: <*>",
+        "lift": 488.0177944882463,
+        "frequency": 0.016222479721900347
+      },
+      {
+        "event_id": 75,
+        "template": "max number of outstanding prefetches.....<NUM>",
+        "lift": 456.93570876786407,
+        "frequency": 0.0050984936268829665
+      }
+    ],
+    "mean_ts_start": 1133616191.210084,
+    "representative_events": [
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>"
+      },
+      {
+        "event_id": 34,
+        "template": "floating point <*> <*>"
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>"
+      },
+      {
+        "event_id": 35,
+        "template": "floating pt ex mode <NUM> enable......<NUM>"
+      },
+      {
+        "event_id": 36,
+        "template": "debug wait enable.................<NUM>"
+      },
+      {
+        "event_id": 37,
+        "template": "debug interrupt enable............<NUM>"
+      },
+      {
+        "event_id": 35,
+        "template": "floating pt ex mode <NUM> enable......<NUM>"
+      },
+      {
+        "event_id": 38,
+        "template": "instruction address space.........<NUM>"
+      },
+      {
+        "event_id": 39,
+        "template": "data address space................<NUM>"
+      },
+      {
+        "event_id": 41,
+        "template": "disable store gathering..................<NUM>"
+      },
+      {
+        "event_id": 42,
+        "template": "disable apu instruction broadcast........<NUM>"
+      },
+      {
+        "event_id": 43,
+        "template": "disable trace broadcast..................<NUM>"
+      },
+      {
+        "event_id": 44,
+        "template": "guaranteed <*> cache block <*>"
+      },
+      {
+        "event_id": 44,
+        "template": "guaranteed <*> cache block <*>"
+      },
+      {
+        "event_id": 45,
+        "template": "force load/store alignment...............<NUM>"
+      },
+      {
+        "event_id": 46,
+        "template": "icache prefetch <*>"
+      },
+      {
+        "event_id": 46,
+        "template": "icache prefetch <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 16,
+    "size": 1,
+    "share": 1.4041788362165805e-05,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 13,
+        "frequency": 0.65
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 7,
+        "frequency": 0.35
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 81.11973600232085,
+        "frequency": 0.65
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "lift": 24.09648389987837,
+        "frequency": 0.35
+      }
+    ],
+    "mean_ts_start": 1131477587.0,
+    "representative_events": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      }
+    ]
+  },
+  {
+    "cluster": 17,
+    "size": 1383,
+    "share": 0.01941979330487531,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 1383
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 23678,
+        "frequency": 0.8560685491160201
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 2858,
+        "frequency": 0.10332983838895116
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 870,
+        "frequency": 0.031454499439603746
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 186,
+        "frequency": 0.006724755052604938
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 21,
+        "frequency": 0.0007592465381973317
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 15,
+        "frequency": 0.0005423189558552369
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 12,
+        "frequency": 0.0004338551646841896
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 9,
+        "frequency": 0.0003253913735131422
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "count": 6,
+        "frequency": 0.0002169275823420948
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 2,
+        "frequency": 7.23091941140316e-05
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 106.83700723720214,
+        "frequency": 0.8560685491160201
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 1.0034870522995152,
+        "frequency": 0.10332983838895116
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "lift": 0.6725062213764195,
+        "frequency": 0.031454499439603746
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "lift": 0.20572931760971822,
+        "frequency": 7.23091941140316e-05
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "lift": 0.17838438600949696,
+        "frequency": 0.0003253913735131422
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "lift": 0.10805670768607432,
+        "frequency": 0.006724755052604938
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "lift": 0.09623614857161042,
+        "frequency": 0.0007592465381973317
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "lift": 0.08898523740609152,
+        "frequency": 0.0002169275823420948
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "lift": 0.06552137508707613,
+        "frequency": 0.0004338551646841896
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "lift": 0.06171879528291546,
+        "frequency": 7.23091941140316e-05
+      }
+    ],
+    "mean_ts_start": 1131513430.415763,
+    "representative_events": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>"
+      }
+    ]
+  },
+  {
+    "cluster": 20,
+    "size": 545,
+    "share": 0.007652774657380364,
+    "alert_window_rate": 0.25871559633027524,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 404
+      },
+      {
+        "tag": "APPSEV",
+        "count": 138
+      },
+      {
+        "tag": "APPTORUS",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory",
+        "count": 8009,
+        "frequency": 0.7385651051272594
+      },
+      {
+        "event_id": 216,
+        "template": "ciod: Error reading message prefix after <*> on CioStream socket to <IP>: <*> <*> <*> <*>",
+        "count": 2743,
+        "frequency": 0.25295094061232015
+      },
+      {
+        "event_id": 64,
+        "template": "ciod: LOGIN <*> failed: <*> <*>",
+        "count": 12,
+        "frequency": 0.0011066027296200663
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 12,
+        "frequency": 0.0011066027296200663
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 11,
+        "frequency": 0.001014385835485061
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 11,
+        "frequency": 0.001014385835485061
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 10,
+        "frequency": 0.0009221689413500553
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "count": 6,
+        "frequency": 0.0005533013648100332
+      },
+      {
+        "event_id": 205,
+        "template": "DCR <HEX> : <HEX>",
+        "count": 3,
+        "frequency": 0.0002766506824050166
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>",
+        "count": 2,
+        "frequency": 0.00018443378827001107
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory",
+        "lift": 72.79286981856391,
+        "frequency": 0.7385651051272594
+      },
+      {
+        "event_id": 216,
+        "template": "ciod: Error reading message prefix after <*> on CioStream socket to <IP>: <*> <*> <*> <*>",
+        "lift": 46.86485121088697,
+        "frequency": 0.25295094061232015
+      },
+      {
+        "event_id": 265,
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties <*> --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>",
+        "lift": 11.019514119431125,
+        "frequency": 0.00018443378827001107
+      },
+      {
+        "event_id": 205,
+        "template": "DCR <HEX> : <HEX>",
+        "lift": 9.154673268450471,
+        "frequency": 0.0002766506824050166
+      },
+      {
+        "event_id": 13,
+        "template": "idoproxydb has been started: $Name: <*> $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1",
+        "lift": 6.959693128061763,
+        "frequency": 0.00018443378827001107
+      },
+      {
+        "event_id": 228,
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <IP> --consoleport <NUM> --configfile bglmaster.init --autorestart y",
+        "lift": 6.723771327110517,
+        "frequency": 9.221689413500554e-05
+      },
+      {
+        "event_id": 14,
+        "template": "ciodb has been restarted.",
+        "lift": 6.150426485263884,
+        "frequency": 0.00018443378827001107
+      },
+      {
+        "event_id": 64,
+        "template": "ciod: LOGIN <*> failed: <*> <*>",
+        "lift": 3.6959861021694453,
+        "frequency": 0.0011066027296200663
+      },
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "lift": 1.7025858725301308,
+        "frequency": 9.221689413500554e-05
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "lift": 1.5742163027758749,
+        "frequency": 0.0005533013648100332
+      }
+    ],
+    "mean_ts_start": 1133179509.6825688,
+    "representative_events": [
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory"
+      }
+    ]
+  },
+  {
+    "cluster": 23,
+    "size": 10,
+    "share": 0.00014041788362165804,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 10
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 122,
+        "frequency": 0.61
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 35,
+        "frequency": 0.175
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 24,
+        "frequency": 0.12
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 14,
+        "frequency": 0.07
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 3,
+        "frequency": 0.015
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 1,
+        "frequency": 0.005
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 1,
+        "frequency": 0.005
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 14.975951261966927,
+        "frequency": 0.12
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "lift": 9.80178328770091,
+        "frequency": 0.61
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "lift": 4.819296779975675,
+        "frequency": 0.07
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 1.6995113598396256,
+        "frequency": 0.175
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "lift": 0.7551065473055995,
+        "frequency": 0.005
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "lift": 0.6337608650814698,
+        "frequency": 0.005
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "lift": 0.32070430305259284,
+        "frequency": 0.015
+      }
+    ],
+    "mean_ts_start": 1131553167.0,
+    "representative_events": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      }
+    ]
+  },
+  {
+    "cluster": 24,
+    "size": 2826,
+    "share": 0.039682093911480566,
+    "alert_window_rate": 0.12349610757254069,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 2477
+      },
+      {
+        "tag": "KERNMNTF",
+        "count": 233
+      },
+      {
+        "tag": "APPOUT",
+        "count": 81
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+        "count": 36258,
+        "frequency": 0.655209801582999
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "count": 10182,
+        "frequency": 0.1839965304130977
+      },
+      {
+        "event_id": 236,
+        "template": "Lustre mount FAILED : <*> : block_id : location",
+        "count": 4651,
+        "frequency": 0.08404712855542304
+      },
+      {
+        "event_id": 64,
+        "template": "ciod: LOGIN <*> failed: <*> <*>",
+        "count": 1611,
+        "frequency": 0.029112002602190178
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 798,
+        "frequency": 0.014420470562723626
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "count": 397,
+        "frequency": 0.007174093751129423
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 324,
+        "frequency": 0.005854927897647186
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 231,
+        "frequency": 0.004174346741841049
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 119,
+        "frequency": 0.0021504210488272075
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 66,
+        "frequency": 0.0011926704976688712
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 64,
+        "template": "ciod: LOGIN <*> failed: <*> <*>",
+        "lift": 97.2323256973688,
+        "frequency": 0.029112002602190178
+      },
+      {
+        "event_id": 236,
+        "template": "Lustre mount FAILED : <*> : block_id : location",
+        "lift": 70.82418562176653,
+        "frequency": 0.08404712855542304
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+        "lift": 65.4881283285644,
+        "frequency": 0.655209801582999
+      },
+      {
+        "event_id": 152,
+        "template": "ciod: Error loading <*> program image too big, <NUM> > <NUM>",
+        "lift": 20.411255165705093,
+        "frequency": 0.007174093751129423
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "lift": 17.05282666290376,
+        "frequency": 0.1839965304130977
+      },
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "lift": 9.865174663576473,
+        "frequency": 0.00045176912790487547
+      },
+      {
+        "event_id": 63,
+        "template": "machine check interrupt (bit=<HEX>): L2 dcache unit data parity error",
+        "lift": 6.345924599916947,
+        "frequency": 7.228306046478007e-05
+      },
+      {
+        "event_id": 224,
+        "template": "Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ]",
+        "lift": 4.664254580938957,
+        "frequency": 5.421229534858506e-05
+      },
+      {
+        "event_id": 22,
+        "template": "summary...........................<NUM>",
+        "lift": 4.460352741335068,
+        "frequency": 0.0002529907116267303
+      },
+      {
+        "event_id": 21,
+        "template": "machine check status register: <HEX>",
+        "lift": 4.42408971091771,
+        "frequency": 0.0002529907116267303
+      }
+    ],
+    "mean_ts_start": 1133743593.6648974,
+    "representative_events": [
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 258,
+        "template": "ciod: Error loading <*> invalid or missing program image, Permission denied"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory"
+      }
+    ]
+  },
+  {
+    "cluster": 26,
+    "size": 53,
+    "share": 0.0007442147831947877,
+    "alert_window_rate": 0.018867924528301886,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 52
+      },
+      {
+        "tag": "KERNMC",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>",
+        "count": 786,
+        "frequency": 0.81282316442606
+      },
+      {
+        "event_id": 110,
+        "template": "PrepareForService shutting down <*> mCardSernum(<HEXW>), <*> mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",
+        "count": 89,
+        "frequency": 0.09203722854188211
+      },
+      {
+        "event_id": 176,
+        "template": "PrepareForService is being done on this Midplane (mLctn(<NODE>), <*> <*> by <*>",
+        "count": 31,
+        "frequency": 0.03205791106514995
+      },
+      {
+        "event_id": 16,
+        "template": "ciod: LOGIN <*> failed: No such file or directory",
+        "count": 10,
+        "frequency": 0.010341261633919338
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "count": 8,
+        "frequency": 0.008273009307135471
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "count": 8,
+        "frequency": 0.008273009307135471
+      },
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "count": 7,
+        "frequency": 0.007238883143743537
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional",
+        "count": 6,
+        "frequency": 0.0062047569803516025
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card",
+        "count": 6,
+        "frequency": 0.0062047569803516025
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 6,
+        "frequency": 0.0062047569803516025
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 176,
+        "template": "PrepareForService is being done on this Midplane (mLctn(<NODE>), <*> <*> by <*>",
+        "lift": 553.847663663963,
+        "frequency": 0.03205791106514995
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>",
+        "lift": 293.7362926160056,
+        "frequency": 0.81282316442606
+      },
+      {
+        "event_id": 110,
+        "template": "PrepareForService shutting down <*> mCardSernum(<HEXW>), <*> mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",
+        "lift": 170.9540653303399,
+        "frequency": 0.09203722854188211
+      },
+      {
+        "event_id": 177,
+        "template": "PrepareForService is being done on this rack <*> by <*>",
+        "lift": 148.28824543260947,
+        "frequency": 0.001034126163391934
+      },
+      {
+        "event_id": 112,
+        "template": "EndServiceAction <NUM> performed upon <*> by <*>",
+        "lift": 133.65034996072097,
+        "frequency": 0.007238883143743537
+      },
+      {
+        "event_id": 111,
+        "template": "EndServiceAction is restarting the <*> in midplane <NODE> as part of Service Action <NUM>",
+        "lift": 66.27407617099864,
+        "frequency": 0.008273009307135471
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>",
+        "lift": 14.928346855631824,
+        "frequency": 0.001034126163391934
+      },
+      {
+        "event_id": 116,
+        "template": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "lift": 1.6664721344739777,
+        "frequency": 0.008273009307135471
+      },
+      {
+        "event_id": 114,
+        "template": "Can not get assembly information for node card",
+        "lift": 1.5424376872504884,
+        "frequency": 0.0062047569803516025
+      },
+      {
+        "event_id": 113,
+        "template": "Node card is not fully functional",
+        "lift": 1.537196739107907,
+        "frequency": 0.0062047569803516025
+      }
+    ],
+    "mean_ts_start": 1133281034.6226416,
+    "representative_events": [
+      {
+        "event_id": 176,
+        "template": "PrepareForService is being done on this Midplane (mLctn(<NODE>), <*> <*> by <*>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>"
+      }
+    ]
+  },
+  {
+    "cluster": 30,
+    "size": 9307,
+    "share": 0.13068692428667716,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 9307
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 186140,
+        "frequency": 1.0
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 9.711493484797861,
+        "frequency": 1.0
+      }
+    ],
+    "mean_ts_start": 1131507247.8535511,
+    "representative_events": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 32,
+    "size": 6,
+    "share": 8.425073017299484e-05,
+    "alert_window_rate": 0.16666666666666666,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 5
+      },
+      {
+        "tag": "KERNSTOR",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>",
+        "count": 31,
+        "frequency": 0.26956521739130435
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>",
+        "count": 12,
+        "frequency": 0.10434782608695652
+      },
+      {
+        "event_id": 132,
+        "template": "byte ordering exception.....................<NUM>",
+        "count": 6,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 131,
+        "template": "auxiliary processor.........................<NUM>",
+        "count": 6,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>",
+        "count": 6,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>",
+        "count": 6,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 4,
+        "frequency": 0.034782608695652174
+      },
+      {
+        "event_id": 134,
+        "template": "program interrupt: fp cr field .............<NUM>",
+        "count": 4,
+        "frequency": 0.034782608695652174
+      },
+      {
+        "event_id": 133,
+        "template": "program interrupt: fp cr update.............<NUM>",
+        "count": 4,
+        "frequency": 0.034782608695652174
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>",
+        "count": 4,
+        "frequency": 0.034782608695652174
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 28,
+        "template": "imprecise machine check...........<NUM>",
+        "lift": 129.4370994433579,
+        "frequency": 0.008695652173913044
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "lift": 29.68835058661146,
+        "frequency": 0.034782608695652174
+      },
+      {
+        "event_id": 132,
+        "template": "byte ordering exception.....................<NUM>",
+        "lift": 27.702287143271118,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 131,
+        "template": "auxiliary processor.........................<NUM>",
+        "lift": 26.65921492276786,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>",
+        "lift": 22.858125107931826,
+        "frequency": 0.034782608695652174
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>",
+        "lift": 22.848817106259045,
+        "frequency": 0.10434782608695652
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>",
+        "lift": 22.846491290185526,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>",
+        "lift": 22.846491290185526,
+        "frequency": 0.05217391304347826
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>",
+        "lift": 20.037097382469565,
+        "frequency": 0.26956521739130435
+      },
+      {
+        "event_id": 133,
+        "template": "program interrupt: fp cr update.............<NUM>",
+        "lift": 18.468191428847412,
+        "frequency": 0.034782608695652174
+      }
+    ],
+    "mean_ts_start": 1134093559.8333333,
+    "representative_events": [
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>"
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>"
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>"
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>"
+      },
+      {
+        "event_id": 131,
+        "template": "auxiliary processor.........................<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 132,
+        "template": "byte ordering exception.....................<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 133,
+        "template": "program interrupt: fp cr update.............<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 134,
+        "template": "program interrupt: fp cr field .............<NUM>"
+      },
+      {
+        "event_id": 30,
+        "template": "wait state enable.................<NUM>"
+      },
+      {
+        "event_id": 31,
+        "template": "critical input interrupt enable...<NUM>"
+      },
+      {
+        "event_id": 32,
+        "template": "external input interrupt enable...<NUM>"
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>"
+      },
+      {
+        "event_id": 34,
+        "template": "floating point <*> <*>"
+      },
+      {
+        "event_id": 20,
+        "template": "machine check <*>"
+      }
+    ]
+  },
+  {
+    "cluster": 34,
+    "size": 43870,
+    "share": 0.6160132554482138,
+    "alert_window_rate": 0.11082744472304536,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 39008
+      },
+      {
+        "tag": "APPSEV",
+        "count": 3532
+      },
+      {
+        "tag": "KERNREC",
+        "count": 509
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 11247,
+        "frequency": 0.4029016657710908
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 6471,
+        "frequency": 0.23181085437936594
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 1106,
+        "frequency": 0.039620275837363425
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 457,
+        "frequency": 0.016371126634425935
+      },
+      {
+        "event_id": 138,
+        "template": "Ido chip status changed: <*> ip=<IP> v=<NUM> t=<NUM> status=M <*> <*> <NUM> <NUM>:<NUM>:<NUM> <*> <NUM>",
+        "count": 382,
+        "frequency": 0.01368439906860111
+      },
+      {
+        "event_id": 78,
+        "template": "capture first <*> <*> error address..<NUM>",
+        "count": 328,
+        "frequency": 0.011749955221207236
+      },
+      {
+        "event_id": 216,
+        "template": "ciod: Error reading message prefix after <*> on CioStream socket to <IP>: <*> <*> <*> <*>",
+        "count": 279,
+        "frequency": 0.00999462654486835
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 273,
+        "frequency": 0.009779688339602364
+      },
+      {
+        "event_id": 93,
+        "template": "memory manager <*> <*> <*>",
+        "count": 232,
+        "frequency": 0.00831094393695146
+      },
+      {
+        "event_id": 92,
+        "template": "memory manager <*> <*>",
+        "count": 232,
+        "frequency": 0.00831094393695146
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "lift": 269.0081185292629,
+        "frequency": 0.4029016657710908
+      },
+      {
+        "event_id": 99,
+        "template": "capture valid.........<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 100,
+        "template": "symbol................<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 95,
+        "template": "state machine....................................<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 96,
+        "template": "memory manager / command manager address parity..<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 91,
+        "template": "command manager unit summary.....................<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 97,
+        "template": "regctl scancom interface.........................<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 79,
+        "template": "disable flagging of DDR UE's as major internal error.<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 88,
+        "template": "number of lines with parity errors written to L3 EDRAMs...<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      },
+      {
+        "event_id": 106,
+        "template": "qw trapped............<NUM>",
+        "lift": 190.17216855118693,
+        "frequency": 0.002077735984237865
+      }
+    ],
+    "mean_ts_start": 1133437752.288785,
+    "representative_events": [
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died."
+      }
+    ]
+  },
+  {
+    "cluster": 36,
+    "size": 3467,
+    "share": 0.04868288025162885,
+    "alert_window_rate": 0.0011537352177675222,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 3463
+      },
+      {
+        "tag": "KERNMC",
+        "count": 3
+      },
+      {
+        "tag": "KERNPAN",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 69204,
+        "frequency": 0.9986147186147186
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 20,
+        "frequency": 0.0002886002886002886
+      },
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "count": 18,
+        "frequency": 0.00025974025974025974
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 16,
+        "frequency": 0.00023088023088023088
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 10,
+        "frequency": 0.0001443001443001443
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 6,
+        "frequency": 8.658008658008658e-05
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>",
+        "count": 5,
+        "frequency": 7.215007215007215e-05
+      },
+      {
+        "event_id": 19,
+        "template": "instruction address: <HEX>",
+        "count": 3,
+        "frequency": 4.329004329004329e-05
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>",
+        "count": 3,
+        "frequency": 4.329004329004329e-05
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 2,
+        "frequency": 2.886002886002886e-05
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "lift": 40.55818822265107,
+        "frequency": 0.9986147186147186
+      },
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "lift": 5.671886083459688,
+        "frequency": 0.00025974025974025974
+      },
+      {
+        "event_id": 264,
+        "template": "kernel panic",
+        "lift": 3.448646785313452,
+        "frequency": 1.443001443001443e-05
+      },
+      {
+        "event_id": 136,
+        "template": "external input interrupt (unit=<HEX> bit=<HEX>): number of corrected SRAM errors has exceeded threshold",
+        "lift": 1.5916831316831317,
+        "frequency": 1.443001443001443e-05
+      },
+      {
+        "event_id": 63,
+        "template": "machine check interrupt (bit=<HEX>): L2 dcache unit data parity error",
+        "lift": 1.2668498395029006,
+        "frequency": 1.443001443001443e-05
+      },
+      {
+        "event_id": 23,
+        "template": "instruction plb error.............<NUM>",
+        "lift": 0.6249225718353235,
+        "frequency": 4.329004329004329e-05
+      },
+      {
+        "event_id": 24,
+        "template": "data <*> plb <*>",
+        "lift": 0.5234033906883823,
+        "frequency": 7.215007215007215e-05
+      },
+      {
+        "event_id": 25,
+        "template": "tlb error.........................<NUM>",
+        "lift": 0.4194300144300144,
+        "frequency": 2.886002886002886e-05
+      },
+      {
+        "event_id": 22,
+        "template": "summary...........................<NUM>",
+        "lift": 0.2544083694083694,
+        "frequency": 1.443001443001443e-05
+      },
+      {
+        "event_id": 21,
+        "template": "machine check status register: <HEX>",
+        "lift": 0.2523400086814721,
+        "frequency": 1.443001443001443e-05
+      }
+    ],
+    "mean_ts_start": 1135497018.8156908,
+    "representative_events": [
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected"
+      }
+    ]
+  },
+  {
+    "cluster": 38,
+    "size": 518,
+    "share": 0.007273646371601887,
+    "alert_window_rate": 1.0,
+    "top_alert_tags": [
+      {
+        "tag": "KERNTERM",
+        "count": 512
+      },
+      {
+        "tag": "KERNREC",
+        "count": 6
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>",
+        "count": 10188,
+        "frequency": 0.997845249755142
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 6,
+        "frequency": 0.0005876591576885406
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 4,
+        "frequency": 0.0003917727717923604
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "count": 4,
+        "frequency": 0.0003917727717923604
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "count": 3,
+        "frequency": 0.0002938295788442703
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 3,
+        "frequency": 0.0002938295788442703
+      },
+      {
+        "event_id": 154,
+        "template": "Kill job <NUM> timed out. Block freed.",
+        "count": 2,
+        "frequency": 0.0001958863858961802
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>",
+        "lift": 230.94488647426476,
+        "frequency": 0.997845249755142
+      },
+      {
+        "event_id": 154,
+        "template": "Kill job <NUM> timed out. Block freed.",
+        "lift": 2.7538309871777633,
+        "frequency": 0.0001958863858961802
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "lift": 0.3221634823791496,
+        "frequency": 0.0005876591576885406
+      },
+      {
+        "event_id": 60,
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "lift": 0.26157761355778225,
+        "frequency": 0.0003917727717923604
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "lift": 0.05916603700729476,
+        "frequency": 0.0003917727717923604
+      },
+      {
+        "event_id": 10,
+        "template": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "lift": 0.02723217043938714,
+        "frequency": 0.0002938295788442703
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "lift": 0.006282160686632573,
+        "frequency": 0.0002938295788442703
+      }
+    ],
+    "mean_ts_start": 1131879077.5945945,
+    "representative_events": [
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      },
+      {
+        "event_id": 260,
+        "template": "rts: kernel terminated for reason <NUM>"
+      }
+    ]
+  },
+  {
+    "cluster": 42,
+    "size": 2,
+    "share": 2.808357672433161e-05,
+    "alert_window_rate": 0.5,
+    "top_alert_tags": [
+      {
+        "tag": "KERNSTOR",
+        "count": 1
+      },
+      {
+        "tag": "NONE",
+        "count": 1
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>",
+        "count": 9,
+        "frequency": 0.225
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>",
+        "count": 3,
+        "frequency": 0.075
+      },
+      {
+        "event_id": 19,
+        "template": "instruction address: <HEX>",
+        "count": 3,
+        "frequency": 0.075
+      },
+      {
+        "event_id": 56,
+        "template": "data address: <HEX>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 126,
+        "template": "machine check: i-fetch......................<NUM>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 29,
+        "template": "machine state register: <HEX>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 125,
+        "template": "exception syndrome register: <HEX>",
+        "count": 2,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 30,
+        "template": "wait state enable.................<NUM>",
+        "count": 1,
+        "frequency": 0.025
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 29,
+        "template": "machine state register: <HEX>",
+        "lift": 25.442642536077596,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>",
+        "lift": 21.894554153094465,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>",
+        "lift": 21.894554153094465,
+        "frequency": 0.05
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>",
+        "lift": 16.72451273456129,
+        "frequency": 0.225
+      },
+      {
+        "event_id": 36,
+        "template": "debug wait enable.................<NUM>",
+        "lift": 16.484679644389946,
+        "frequency": 0.025
+      },
+      {
+        "event_id": 34,
+        "template": "floating point <*> <*>",
+        "lift": 16.43429859413203,
+        "frequency": 0.025
+      },
+      {
+        "event_id": 33,
+        "template": "problem state (<NUM>=sup,<NUM>=usr).......<NUM>",
+        "lift": 16.429277421326002,
+        "frequency": 0.025
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>",
+        "lift": 16.422587295123687,
+        "frequency": 0.075
+      },
+      {
+        "event_id": 32,
+        "template": "external input interrupt enable...<NUM>",
+        "lift": 16.404217510677242,
+        "frequency": 0.025
+      },
+      {
+        "event_id": 31,
+        "template": "critical input interrupt enable...<NUM>",
+        "lift": 16.396714438176552,
+        "frequency": 0.025
+      }
+    ],
+    "mean_ts_start": 1131909474.5,
+    "representative_events": [
+      {
+        "event_id": 124,
+        "template": "data storage interrupt"
+      },
+      {
+        "event_id": 19,
+        "template": "instruction address: <HEX>"
+      },
+      {
+        "event_id": 56,
+        "template": "data address: <HEX>"
+      },
+      {
+        "event_id": 125,
+        "template": "exception syndrome register: <HEX>"
+      },
+      {
+        "event_id": 126,
+        "template": "machine check: i-fetch......................<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 128,
+        "template": "floating point operation....................<NUM>"
+      },
+      {
+        "event_id": 129,
+        "template": "store operation.............................<NUM>"
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>"
+      },
+      {
+        "event_id": 130,
+        "template": "data store interrupt caused by <*>"
+      },
+      {
+        "event_id": 131,
+        "template": "auxiliary processor.........................<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 132,
+        "template": "byte ordering exception.....................<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 133,
+        "template": "program interrupt: fp cr update.............<NUM>"
+      },
+      {
+        "event_id": 127,
+        "template": "program interrupt: <*> <*>"
+      },
+      {
+        "event_id": 134,
+        "template": "program interrupt: fp cr field .............<NUM>"
+      },
+      {
+        "event_id": 29,
+        "template": "machine state register: <HEX>"
+      }
+    ]
+  },
+  {
+    "cluster": 43,
+    "size": 1502,
+    "share": 0.02109076611997304,
+    "alert_window_rate": 0.03794940079893475,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 1445
+      },
+      {
+        "tag": "KERNMC",
+        "count": 18
+      },
+      {
+        "tag": "KERNRTSP",
+        "count": 14
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>",
+        "count": 13367,
+        "frequency": 0.5441703305650546
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 4596,
+        "frequency": 0.18710307767464582
+      },
+      {
+        "event_id": 7,
+        "template": "total of <NUM> ddr error(s) detected and corrected",
+        "count": 1415,
+        "frequency": 0.05760462465396515
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "count": 1411,
+        "frequency": 0.057441784725614724
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "count": 1368,
+        "frequency": 0.05569125549584758
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 973,
+        "frequency": 0.039610812571242465
+      },
+      {
+        "event_id": 119,
+        "template": "<NUM> torus <*> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "count": 286,
+        "frequency": 0.011643054877055855
+      },
+      {
+        "event_id": 259,
+        "template": "ciod: generated <NUM> core files for program <*>",
+        "count": 186,
+        "frequency": 0.007572056668295066
+      },
+      {
+        "event_id": 1,
+        "template": "instruction cache parity error corrected",
+        "count": 74,
+        "frequency": 0.0030125386744829833
+      },
+      {
+        "event_id": 50,
+        "template": "<NUM>:<HEXW> <NUM>:<HEXW> <*> <*>",
+        "count": 70,
+        "frequency": 0.002849698746132552
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 256,
+        "template": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "lift": 60.45024330930411,
+        "frequency": 0.002768278781957336
+      },
+      {
+        "event_id": 119,
+        "template": "<NUM> torus <*> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "lift": 41.155778536091795,
+        "frequency": 0.011643054877055855
+      },
+      {
+        "event_id": 5,
+        "template": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",
+        "lift": 33.80941610577358,
+        "frequency": 0.039610812571242465
+      },
+      {
+        "event_id": 12,
+        "template": "<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "lift": 31.490439924507186,
+        "frequency": 0.057441784725614724
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "lift": 23.715721673297793,
+        "frequency": 0.18710307767464582
+      },
+      {
+        "event_id": 55,
+        "template": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",
+        "lift": 22.844949167995416,
+        "frequency": 0.05569125549584758
+      },
+      {
+        "event_id": 264,
+        "template": "kernel panic",
+        "lift": 19.458656751524366,
+        "frequency": 8.141996417521577e-05
+      },
+      {
+        "event_id": 63,
+        "template": "machine check interrupt (bit=<HEX>): L2 dcache unit data parity error",
+        "lift": 14.296155980711777,
+        "frequency": 0.00016283992835043154
+      },
+      {
+        "event_id": 182,
+        "template": "no ethernet link",
+        "lift": 12.509136483122806,
+        "frequency": 4.0709982087607885e-05
+      },
+      {
+        "event_id": 154,
+        "template": "Kill job <NUM> timed out. Block freed.",
+        "lift": 12.018582111235634,
+        "frequency": 0.0008549096238397655
+      }
+    ],
+    "mean_ts_start": 1132521436.7496672,
+    "representative_events": [
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      },
+      {
+        "event_id": 6,
+        "template": "CE sym <NUM>, at <HEX>, mask <HEX>"
+      }
+    ]
+  },
+  {
+    "cluster": 46,
+    "size": 52,
+    "share": 0.0007301729948326218,
+    "alert_window_rate": 0.0,
+    "top_alert_tags": [
+      {
+        "tag": "NONE",
+        "count": 52
+      }
+    ],
+    "top_events_by_frequency": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "count": 876,
+        "frequency": 0.8423076923076923
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "count": 124,
+        "frequency": 0.11923076923076924
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "count": 39,
+        "frequency": 0.0375
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "count": 1,
+        "frequency": 0.0009615384615384616
+      }
+    ],
+    "top_events_by_lift": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>",
+        "lift": 8.180065666041276,
+        "frequency": 0.8423076923076923
+      },
+      {
+        "event_id": 196,
+        "template": "<EMPTY>",
+        "lift": 4.679984769364665,
+        "frequency": 0.0375
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions",
+        "lift": 1.9158592806981602,
+        "frequency": 0.11923076923076924
+      },
+      {
+        "event_id": 4,
+        "template": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",
+        "lift": 0.12187708943874419,
+        "frequency": 0.0009615384615384616
+      }
+    ],
+    "mean_ts_start": 1131498549.5192308,
+    "representative_events": [
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      },
+      {
+        "event_id": 157,
+        "template": "<NUM> floating point alignment exceptions"
+      },
+      {
+        "event_id": 266,
+        "template": "iar <*> dear <*>"
+      }
+    ]
+  }
+]
