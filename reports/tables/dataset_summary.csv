@@ -1,0 +1,14 @@
+metric,value
+n_lines,4747963
+n_alert_lines,348460
+alert_line_ratio,0.07339147335394147
+first_timestamp_utc,2005-06-03 22:42:50
+last_timestamp_utc,2006-01-04 16:00:05
+n_distinct_nodes,69252
+n_distinct_components,15
+n_distinct_levels,10
+n_distinct_alert_tags,41
+median_message_chars,26.0
+max_message_chars,838
+fatal_level_lines,855501
+fatal_level_not_alert,507103

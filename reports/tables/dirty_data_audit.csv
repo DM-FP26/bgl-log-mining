@@ -1,0 +1,15 @@
+check,count,percent_of_lines,note
+malformed_lines (regex failed),0,0.0,kept in parquet with parse_ok=False; first 1000 in rejects.txt
+empty_content (nothing after level),34470,0.726,line is valid but the message is empty
+lines_with_replacement_char (undecodable bytes),0,0.0,read with errors='replace'
+non_ascii_lines,8,0.0002,
+"duplicate_lines (exact, after the first copy)",4,0.0001,ratio of all lines
+timestamps_out_of_order,0,0.0,ts smaller than the highest ts seen so far
+time_gaps_over_1h,1005,0.0212,see time_gaps.csv
+ts_vs_time_full_disagreement,0,0.0,difference not 7h/8h (PDT/PST); see ts_time_full_offset_counts in results.json
+missing_node_repeat_field,324,0.0068,6th field absent; handled by the parser
+node_is_dash_NULL_or_UNKNOWN,116659,2.457,no usable node/location
+distinct_alert_tags,41,0.0009,
+alert_tags_with_fewer_than_100_lines,20,0.0004,see alert_tags.csv
+messages_longer_than_1000_chars,0,0.0,max length 838
+FATAL_level_lines_that_are_not_alerts,507103,10.6804,"of 855,501 FATAL lines: level is NOT the alert label"

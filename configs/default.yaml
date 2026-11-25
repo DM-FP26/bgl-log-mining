@@ -20,7 +20,7 @@ data:
 
 sample:
   lines: 200000                  # --sample mode: contiguous slice
-  offset: 0                      # choose an offset whose slice contains alerts; record it after S01
+  offset: 3000000                # slice 3.0M-3.2M has ~10% alert lines (S01)
   smoke_lines: 2000              # used by the end-to-end smoke test
 
 parsing:

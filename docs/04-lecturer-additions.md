@@ -31,7 +31,7 @@ These two items came after the blueprint was written. They are **requirements**,
 | Skip the number/hex/IP masking before Drain3 | Template count explodes (tens of thousands instead of a few hundred to low thousands); the vocabulary is useless | No |
 | Random split instead of chronological | Overlapping windows leak across train and test; scores look better than they are | No (affects training data, so full effect needs retraining) |
 | Skip the dirty-data audit (S01) | Empty-message lines, rows with a missing node, and FATAL lines that are not alerts go unnoticed | No |
-| Use the `FATAL` level as the "alert" label | About 59% of FATAL lines are not alerts (506,260 of 854,658 FATAL lines, measured on the raw file), so the label is wrong | No |
+| Use the `FATAL` level as the "alert" label | About 59% of FATAL lines are not alerts (507,103 of 855,501 FATAL lines, from the S01 audit), so the label is wrong | No |
 | Skip the deep model, cluster bag-of-events directly | Shows what the LSTM/GRU embedding adds (or does not add) | No |
 | Tiny window size (for example 2) or huge window size | Windows lose meaning, or alerts are smeared across windows | Yes for a full retrain, no for pattern mining |
 | Choose k for K-Means without any selection | Clusters look random; NMI/ARI collapse | No |
