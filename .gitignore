@@ -1,0 +1,30 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.streamlit/secrets.toml
+
+# data (never commit)
+data/raw/
+data/interim/
+data/processed/*.parquet
+data/processed/windows_X.npy
+tmp/
+logs/
+
+# heavy artifacts (never commit)
+artifacts/embeddings/
+artifacts/clusters/*reducer*
+handoff/results/**/last.pt
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+
+# build
+*.egg-info/

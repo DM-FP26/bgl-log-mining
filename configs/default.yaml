@@ -1,0 +1,79 @@
+# Central configuration. Never hard-code these values in code.
+seed: 42
+
+paths:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  artifacts_dir: artifacts
+  reports_dir: reports
+  logs_dir: logs
+  handoff_dir: handoff
+
+data:
+  zenodo_url: "https://zenodo.org/records/8196385/files/BGL.zip?download=1"
+  zip_name: BGL.zip
+  log_name: BGL.log
+  expected_lines: 4747963        # from published statistics; sanity check only
+  expected_alert_lines: 348460   # about 7.34 percent; sanity check only
+  tolerance: 0.01                # more than 1 percent off => stop and ask
+
+sample:
+  lines: 200000                  # --sample mode: contiguous slice
+  offset: 0                      # choose an offset whose slice contains alerts; record it after S01
+  smoke_lines: 2000              # used by the end-to-end smoke test
+
+parsing:
+  chunk_rows: 200000
+  drain:
+    depth: 4
+    sim_th: 0.4
+    max_children: 100
+  # Starter masks (hints). Refine against the real data in S02 and record changes in the note.
+  masks:
+    - {name: HEX,  regex: '0x[0-9a-fA-F]+'}
+    - {name: IP,   regex: '\b\d{1,3}(?:\.\d{1,3}){3}\b'}
+    - {name: NODE, regex: 'R\d{2}-M\d-N[0-9A-Za-z]+(?:-[A-Z]:J\d{2}-U\d{2})?'}
+    - {name: PATH, regex: '(?:/[\w.\-]+){2,}'}
+
+windows:
+  size: 20
+  step: 10
+  group_by: none                 # none | node (node only as an ablation)
+  split: {train: 0.70, val: 0.15, test: 0.15}
+  gap_windows: 2
+
+vocab:
+  min_count: 5                   # counted on the train split only
+  max_size: 2000
+
+eda:
+  burst_gap_seconds: 300
+
+patterns:
+  burst_gap_seconds: 300
+  control_margin_minutes: 60
+  max_windows_per_class: 20000
+  max_items: 150
+  min_support: 0.02
+  min_confidence: 0.6
+  min_lift: 1.2
+  seq_sample: 10000
+  seq_min_support: 0.05
+  seq_min_ratio: 2.0
+  stability_seed: 43
+
+embed:
+  pooling: mean                  # mean | last
+  batch_size: 4096
+
+clustering:
+  svd_dims: 64
+  k_values: [4, 6, 8, 12, 16, 24, 32, 48]
+  seeds: [42, 43, 44]
+  silhouette_sample: 10000
+  umap_dims: 10
+  umap_plot_sample: 30000
+  hdbscan:
+    subsample: 100000
+    min_cluster_size: 200
