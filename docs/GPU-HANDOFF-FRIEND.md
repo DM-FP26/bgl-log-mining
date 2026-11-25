@@ -2,9 +2,9 @@
 
 > **Ringkasan (ID):** Clone repo → install PyTorch versi CUDA → jalankan satu script → `git push` ke branch `gpu-run`. Colok charger, matikan sleep, jangan tutup laptop sampai selesai. Kalau error, kirim screenshot ke Nafi.
 
-Claude Code fills the `<...>` placeholders in S04. Do not send this file with placeholders left in it.
+Ready to send. Keep the laptop plugged in and awake while it trains.
 
-**Repo:** `https://github.com/<owner>/bgl-log-mining` (public to read; you still need write access to push, so accept the organization invite first)
+**Repo:** `https://github.com/DM-FP26/bgl-log-mining` (public to read; you still need write access to push, so accept the organization invite first)
 **Your branch:** `gpu-run` (never push to `main`)
 **You only need:** Windows, Git, Python 3.12, the NVIDIA driver, about 3 GB of free disk space.
 
@@ -25,7 +25,7 @@ Claude Code fills the `<...>` placeholders in S04. Do not send this file with pl
 ## 1. Get the code
 
 ```powershell
-git clone https://github.com/<owner>/bgl-log-mining.git
+git clone https://github.com/DM-FP26/bgl-log-mining.git
 cd bgl-log-mining
 git checkout -b gpu-run
 ```

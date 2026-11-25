@@ -135,5 +135,127 @@
       "PATH",
       "NUM"
     ]
+  },
+  "dl": {
+    "baselines": {
+      "most_frequent_top1": 0.0,
+      "bigram_top1": 0.9626554943300737,
+      "repeat_last_top1": 0.9575930601047665,
+      "most_frequent_event_vocab_index": 2,
+      "detail": {
+        "val_all": {
+          "most_frequent": {
+            "top1": 0.0,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1353161,
+            "n_change_tokens": 153895
+          },
+          "bigram": {
+            "top1": 0.9019887507842748,
+            "top1_on_changes": 0.24748692290197863,
+            "n_tokens": 1353161,
+            "n_change_tokens": 153895
+          },
+          "repeat_last": {
+            "top1": 0.8862700003916755,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1353161,
+            "n_change_tokens": 153895
+          },
+          "n_windows": 71219
+        },
+        "val_unk_free": {
+          "most_frequent": {
+            "top1": 0.0,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1317821,
+            "n_change_tokens": 150026
+          },
+          "bigram": {
+            "top1": 0.9019920004310146,
+            "top1_on_changes": 0.2435111247383787,
+            "n_tokens": 1317821,
+            "n_change_tokens": 150026
+          },
+          "repeat_last": {
+            "top1": 0.8861560105659266,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1317821,
+            "n_change_tokens": 150026
+          },
+          "n_windows": 69359
+        },
+        "test_all": {
+          "most_frequent": {
+            "top1": 0.0,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1353104,
+            "n_change_tokens": 57381
+          },
+          "bigram": {
+            "top1": 0.9626554943300737,
+            "top1_on_changes": 0.18692598595353863,
+            "n_tokens": 1353104,
+            "n_change_tokens": 57381
+          },
+          "repeat_last": {
+            "top1": 0.9575930601047665,
+            "top1_on_changes": 0.0,
+            "n_tokens": 1353104,
+            "n_change_tokens": 57381
+          },
+          "n_windows": 71216
+        },
+        "test_unk_free": {
+          "most_frequent": {
+            "top1": 0.0,
+            "top1_on_changes": 0.0,
+            "n_tokens": 481764,
+            "n_change_tokens": 27402
+          },
+          "bigram": {
+            "top1": 0.9536619589674612,
+            "top1_on_changes": 0.3009999270126268,
+            "n_tokens": 481764,
+            "n_change_tokens": 27402
+          },
+          "repeat_last": {
+            "top1": 0.9431215283831917,
+            "top1_on_changes": 0.0,
+            "n_tokens": 481764,
+            "n_change_tokens": 27402
+          },
+          "n_windows": 25356
+        }
+      }
+    },
+    "cpu_pilot": {
+      "note": "1 epoch, LSTM, Nafi's 4-core CPU, default train.yaml; a pilot to verify learning and timing, NOT the final model",
+      "seconds_per_epoch": 153.5,
+      "train_loss": 0.4498607740035424,
+      "val_loss": 0.6117207569110978,
+      "val_top1": 0.8805138486846724,
+      "test": {
+        "loss": 5.590561723487515,
+        "perplexity": 267.8860553473436,
+        "top1": 0.3572068370206577,
+        "top5": 0.3777521905189845,
+        "top1_on_changes": 0.28997403321656995,
+        "n_change_tokens": 57381,
+        "n_tokens": 1353104,
+        "n_windows": 71216
+      },
+      "test_unk_free": {
+        "loss": 0.3389158602131673,
+        "perplexity": 1.4034252563429053,
+        "top1": 0.9255112461703241,
+        "top5": 0.9763971571142717,
+        "top1_on_changes": 0.3795343405590833,
+        "n_change_tokens": 27402,
+        "n_tokens": 481764,
+        "n_windows": 25356
+      },
+      "n_params": 277937
+    }
   }
 }

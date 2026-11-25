@@ -8,8 +8,8 @@ Claude Code updates this file at the end of every stage. Status values: `todo`, 
 | S01 | Data acquisition + EDA | done | 2026-11-25 | `scripts/s01_download_and_eda.py`, `src/bgllog/parsing.py`, `reports/tables/*`, `reports/figures/eda_*.png`, `docs/notes/S01-data-and-eda.md` | 27 tests pass; counts match published figures exactly |
 | S02 | Preprocessing | done | 2026-11-25 | `scripts/s02_preprocess.py`, `src/bgllog/windows.py`, `data/processed/templates.csv`, `artifacts/drain3_state.bin`, `artifacts/vocab.json`, `handoff/windows.npz`, notes (ID + EN) | 396 templates, 474,795 windows; test split has 60.5% UNK tokens (concept drift), see decisions |
 | S03 | Pattern mining | todo | | | |
-| S04 | Training code + handoff package | todo | | | |
-| S05 | GPU hand-off, merge, embeddings | todo | | | waits for teammate pushing `gpu-run` |
+| S04 | Training code + handoff package | done | 2026-11-25 | `src/bgllog/{models,train,embed}.py`, `scripts/{train,check_gpu,s04_make_handoff}.py`, `scripts/train_all.ps1`, `docs/GPU-HANDOFF-FRIEND.md`, notes (ID + EN) | 43 tests pass; train_all.ps1 untested on Windows; GPU teammate account still to confirm |
+| S05 | GPU hand-off, merge, embeddings | waiting | | | waits for teammate pushing `gpu-run` |
 | S06 | Clustering | todo | | | |
 | S07 | Evaluation + analysis | todo | | | |
 | S08 | Streamlit app | todo | | | |
@@ -28,10 +28,12 @@ Record every deviation from the specs here (date, stage, what, why).
 | 2026-11-25 | S00 | Git commits use the GitHub noreply email | The repo is public, so the author email would be visible to everyone |
 | 2026-11-25 | all | Added S10 (slides) and S11 (break-it-on-purpose demos) | Lecturer's new requirements; details in `docs/04-lecturer-additions.md` |
 | 2026-11-25 | S01 | `--sample` offset set to 3,000,000 in config; parser tolerates a missing node-repeat field and empty messages | Real data differs from the assumed layout (324 lines lack the repeat field; 34,470 messages are empty) |
+| 2026-11-25 | S04 | Added baseline `repeat_last` and metric `top1_on_changes`; test metrics written for all windows AND UNK-free windows | Plain top-1 is inflated by repetition (repeat-last already scores 94 to 96%) |
+| 2026-11-25 | S04 | Manual batching instead of a DataLoader | Whole train set fits on the device (53 MB); avoids Windows worker issues |
 | 2026-11-25 | S02 | Added mask `HEXW` (bare hex words) and `NUM`; Drain3 fed unique messages only | 630 singleton templates before HEXW; unique-only is equivalent and about 20 s |
 | 2026-11-25 | S02 | Test split has 60.5% UNK tokens (only 25,356 UNK-free test windows, 1,056 with alerts). Kept the spec split; **report test metrics on all windows AND on the UNK-free subset** | Concept drift: new event types after the train period. Revisit (evaluate on val, or blocked folds) only if the UNK-free subset is too small in S06/S07 |
 | 2026-11-25 | S01 | BGL.zip already downloaded and extracted to `data/raw/` during planning. Line count 4,747,963 and alert count 348,460 match the expected figures exactly | Early inspection; S01 still has to run its own audit and write results.json |
 
 ## Next action
 
-S03 (pattern mining on pre-alert vs control windows) and S04 (training code and GPU hand-off package) can both start now; S04 is the critical path because the GPU teammate is waiting on it. Do S04 first, then S03 while the teammate trains. Remember the S02 finding: report test metrics on all windows and on the UNK-free subset.
+Send the GPU teammate `docs/GPU-HANDOFF-FRIEND.md` and the repo URL (message printed in chat at the end of S04). Confirm which GitHub account is the teammate (`Bima-031` has write access, `najwarjombi` does not). While waiting: S03 (pattern mining) and the S01 to S03 parts of the report draft. When the teammate says "pushed": merge `origin/gpu-run` and run S05.
