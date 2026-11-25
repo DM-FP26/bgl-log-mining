@@ -9,8 +9,8 @@ Claude Code updates this file at the end of every stage. Status values: `todo`, 
 | S02 | Preprocessing | done | 2026-11-25 | `scripts/s02_preprocess.py`, `src/bgllog/windows.py`, `data/processed/templates.csv`, `artifacts/drain3_state.bin`, `artifacts/vocab.json`, `handoff/windows.npz`, notes (ID + EN) | 396 templates, 474,795 windows; test split has 60.5% UNK tokens (concept drift), see decisions |
 | S03 | Pattern mining | done | 2026-11-25 | `scripts/s03_patterns.py`, `src/bgllog/patterns.py`, `reports/tables/{frequent_itemsets,association_rules,sequential_patterns_prealert,pattern_examples}.csv`, `artifacts/patterns/*`, `reports/figures/pat_*.png`, notes (ID + EN) | 606 P + 606 C windows, 83 rules, 293 sequences; 4 honesty checks pass; low recall |
 | S04 | Training code + handoff package | done | 2026-11-25 | `src/bgllog/{models,train,embed}.py`, `scripts/{train,check_gpu,s04_make_handoff}.py`, `scripts/train_all.ps1`, `docs/GPU-HANDOFF-FRIEND.md`, notes (ID + EN) | 43 tests pass; train_all.ps1 untested on Windows; GPU teammate account still to confirm |
-| S05 | GPU hand-off, merge, embeddings | waiting | | | waits for teammate pushing `gpu-run` |
-| S06 | Clustering | todo | | | |
+| S05 | GPU hand-off, merge, embeddings | done | 2026-11-25 | `handoff/results/{lstm,gru}/`, `artifacts/models/{lstm,gru}/`, `artifacts/embeddings/*`, `reports/tables/dl_model_comparison.csv`, `reports/figures/dl_loss_curves.png`, notes (ID + EN) | RTX 5060/CUDA 12.8; models pushed on `gpu-run`; all-window top-1 below bigram, UNK-free top-1 above |
+| S06 | Clustering | blocked | | `docs/BLOCKERS.md` | no local raw/parsed BGL data; Zenodo DNS lookup failed |
 | S07 | Evaluation + analysis | todo | | | |
 | S08 | Streamlit app | todo | | | |
 | S09 | Report draft + defense pack + final check | todo | | | |
@@ -34,7 +34,8 @@ Record every deviation from the specs here (date, stage, what, why).
 | 2026-11-25 | S02 | Added mask `HEXW` (bare hex words) and `NUM`; Drain3 fed unique messages only | 630 singleton templates before HEXW; unique-only is equivalent and about 20 s |
 | 2026-11-25 | S02 | Test split has 60.5% UNK tokens (only 25,356 UNK-free test windows, 1,056 with alerts). Kept the spec split; **report test metrics on all windows AND on the UNK-free subset** | Concept drift: new event types after the train period. Revisit (evaluate on val, or blocked folds) only if the UNK-free subset is too small in S06/S07 |
 | 2026-11-25 | S01 | BGL.zip already downloaded and extracted to `data/raw/` during planning. Line count 4,747,963 and alert count 348,460 match the expected figures exactly | Early inspection; S01 still has to run its own audit and write results.json |
+| 2026-11-25 | S05 | Added pandas and editable project installation to the GPU setup; `requirements-train.txt` now includes pandas | Training initially failed to import `bgllog`, then failed to import pandas in the minimal training environment |
 
 ## Next action
 
-Waiting on the GPU teammate (S05). Send them `docs/GPU-HANDOFF-FRIEND.md` and the repo URL; confirm their GitHub account (Bima-031 has write access, najwarjombi did not at last check). Meanwhile: draft the S01 to S03 report chapters (S09 skeleton), or train on CPU here if Nafi prefers (about 150 s per epoch). When the teammate says "pushed", run S05.
+S05 results are on `origin/gpu-run`; S05 extraction and validation are complete locally. S06 is blocked until Nafi provides `data/raw/BGL.log` or `data/interim/parsed.parquet`, or network access to Zenodo is restored; see `docs/BLOCKERS.md`.

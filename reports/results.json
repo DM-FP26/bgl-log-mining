@@ -256,6 +256,92 @@
         "n_windows": 25356
       },
       "n_params": 277937
+    },
+    "lstm": {
+      "model": "lstm",
+      "best_epoch": 9,
+      "best_val_loss": 0.37127902581552563,
+      "test": {
+        "loss": 0.5947910104906824,
+        "perplexity": 1.812652080103361,
+        "top1": 0.9576654861710556,
+        "top5": 0.975995932315624,
+        "top1_on_changes": 0.31719558738955406,
+        "n_change_tokens": 57381,
+        "n_tokens": 1353104,
+        "n_windows": 71216
+      },
+      "test_unk_free": {
+        "loss": 0.17549832590682934,
+        "perplexity": 1.1918399933983985,
+        "top1": 0.9602627012396111,
+        "top5": 0.9922576199134846,
+        "top1_on_changes": 0.4502591051748048,
+        "n_change_tokens": 27402,
+        "n_tokens": 481764,
+        "n_windows": 25356
+      },
+      "val": {
+        "loss": 0.37127902581552563,
+        "perplexity": 1.4495874892941576,
+        "top1": 0.9164888730904897,
+        "top5": 0.9867916678059743,
+        "top1_on_changes": 0.45150914584619384,
+        "n_change_tokens": 153895,
+        "n_tokens": 1353161,
+        "n_windows": 71219
+      },
+      "n_params": 277937,
+      "epochs_run": 12,
+      "device": "cuda",
+      "seed": 42,
+      "epochs_trained": 12,
+      "training_seconds": 98.2,
+      "device_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "cuda": "12.8"
+    },
+    "gru": {
+      "model": "gru",
+      "best_epoch": 7,
+      "best_val_loss": 0.4109108547928687,
+      "test": {
+        "loss": 0.7116785901857703,
+        "perplexity": 2.0374083635684954,
+        "top1": 0.9603393382918091,
+        "top5": 0.9771222315505682,
+        "top1_on_changes": 0.32719889859012563,
+        "n_change_tokens": 57381,
+        "n_tokens": 1353104,
+        "n_windows": 71216
+      },
+      "test_unk_free": {
+        "loss": 0.18230826378763407,
+        "perplexity": 1.1999840484984372,
+        "top1": 0.9602253385475046,
+        "top5": 0.9925419915145175,
+        "top1_on_changes": 0.4633238449748194,
+        "n_change_tokens": 27402,
+        "n_tokens": 481764,
+        "n_windows": 25356
+      },
+      "val": {
+        "loss": 0.4109108547928687,
+        "perplexity": 1.5081909025747795,
+        "top1": 0.9152975883874868,
+        "top5": 0.9812505681142155,
+        "top1_on_changes": 0.4486825432925046,
+        "n_change_tokens": 153895,
+        "n_tokens": 1353161,
+        "n_windows": 71219
+      },
+      "n_params": 220081,
+      "epochs_run": 10,
+      "device": "cuda",
+      "seed": 42,
+      "epochs_trained": 10,
+      "training_seconds": 54.0,
+      "device_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "cuda": "12.8"
     }
   },
   "patterns": {

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "vocab_size": 241,
+    "embed_dim": 64,
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "rnn_type": "lstm"
+  },
+  "windows_meta": {
+    "window_size": 20,
+    "step": 10,
+    "split_sizes": {
+      "train": 332356,
+      "val": 71219,
+      "test": 71216,
+      "gap": 4
+    },
+    "vocab_size": 241,
+    "config_hash": "8bc744b3b253",
+    "pad": 0,
+    "unk": 1
+  },
+  "pooling": "mean"
+}

@@ -39,6 +39,7 @@ py -3.12 -m venv .venv
 python -m pip install --upgrade pip
 pip install torch --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements-train.txt
+pip install -e .
 ```
 If activation is blocked: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and retry.
 
