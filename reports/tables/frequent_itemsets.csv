@@ -1,0 +1,197 @@
+support,length,templates,itemset
+0.5,1,PRE_ALERT,PRE_ALERT
+0.31435643564356436,1,"CE sym <NUM>, at <HEX>, mask <HEX>",6
+0.28135313531353134,2,"CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",6 PRE_ALERT
+0.25577557755775576,1,total of <NUM> ddr error(s) detected and corrected,7
+0.2524752475247525,2,"CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",6 7
+0.24917491749174916,1,generating core.<NUM>,3
+0.2367986798679868,2,total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,7 PRE_ALERT
+0.2334983498349835,3,"CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",6 7 PRE_ALERT
+0.1740924092409241,1,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",4
+0.1716171617161716,2,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX>",4 6
+0.16666666666666666,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",4 6 7
+0.16666666666666666,2,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected",4 7
+0.1608910891089109,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",4 6 PRE_ALERT
+0.1608910891089109,2,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | PRE_ALERT",4 PRE_ALERT
+0.15924092409240925,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",4 6 7 PRE_ALERT
+0.15924092409240925,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",4 7 PRE_ALERT
+0.09983498349834984,1,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected,12
+0.09570957095709572,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | total of <NUM> ddr error(s) detected and corrected,12 7
+0.09570957095709572,2,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | CE sym <NUM>, at <HEX>, mask <HEX>",12 6
+0.09488448844884488,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | PRE_ALERT,12 PRE_ALERT
+0.09323432343234324,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",12 6 7
+0.09158415841584158,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,12 7 PRE_ALERT
+0.09075907590759076,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",12 6 PRE_ALERT
+0.0891089108910891,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",12 6 7 PRE_ALERT
+0.07343234323432343,2,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",12 4
+0.07343234323432343,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX>",12 4 6
+0.07095709570957096,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected",12 4 7
+0.07095709570957096,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",12 4 6 7
+0.07095709570957096,1,iar <*> dear <*>,266
+0.07013201320132013,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | PRE_ALERT",12 4 PRE_ALERT
+0.07013201320132013,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",12 4 6 PRE_ALERT
+0.06848184818481848,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",12 4 7 PRE_ALERT
+0.06683168316831684,1,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected,55
+0.06353135313531354,1,MidplaneSwitchController performing bit sparing on <NODE> bit <NUM>,2
+0.06353135313531354,1,instruction cache parity error corrected,1
+0.0627062706270627,2,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",55 6
+0.06188118811881188,2,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | PRE_ALERT,55 PRE_ALERT
+0.06188118811881188,2,MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | PRE_ALERT,2 PRE_ALERT
+0.06105610561056106,1,ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>,8
+0.06105610561056106,2,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected,55 7
+0.06023102310231023,3,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",55 6 7
+0.06023102310231023,2,ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM> | PRE_ALERT,8 PRE_ALERT
+0.05858085808580858,3,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",55 6 PRE_ALERT
+0.05858085808580858,3,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,55 7 PRE_ALERT
+0.057755775577557754,4,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",55 6 7 PRE_ALERT
+0.05693069306930693,1,total of <NUM> ddr error(s) detected and corrected over <NUM> seconds,300
+0.05363036303630363,2,"<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",5 6
+0.05363036303630363,2,instruction cache parity error corrected | PRE_ALERT,1 PRE_ALERT
+0.05363036303630363,1,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected,5
+0.052805280528052806,2,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",4 55
+0.052805280528052806,2,total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT,300 PRE_ALERT
+0.052805280528052806,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected,12 55
+0.052805280528052806,1,<NUM> floating point alignment exceptions,157
+0.05198019801980198,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",4 55 6
+0.05198019801980198,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",12 55 6
+0.05115511551155116,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected,12 55 7
+0.05115511551155116,3,"<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",5 6 PRE_ALERT
+0.05115511551155116,2,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds",299 300
+0.05115511551155116,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | PRE_ALERT,12 55 PRE_ALERT
+0.05115511551155116,2,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | PRE_ALERT,5 PRE_ALERT
+0.05115511551155116,1,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds",299
+0.05033003300330033,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",12 55 6 PRE_ALERT
+0.05033003300330033,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",12 55 6 7
+0.05033003300330033,4,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,12 55 7 PRE_ALERT
+0.04950495049504951,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected",4 55 7
+0.04950495049504951,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",4 55 6 7
+0.04950495049504951,3,"<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",5 6 7
+0.04950495049504951,2,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected,5 7
+0.04867986798679868,2,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",4 5
+0.04867986798679868,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",4 5 6
+0.04867986798679868,1,Kill job <NUM> timed out. Block freed.,154
+0.04867986798679868,2,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX>",2 6
+0.04867986798679868,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",4 55 6 PRE_ALERT
+0.04867986798679868,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | PRE_ALERT",4 55 PRE_ALERT
+0.04785478547854786,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",4 55 7 PRE_ALERT
+0.04785478547854786,2,Kill job <NUM> timed out. Block freed. | PRE_ALERT,154 PRE_ALERT
+0.04785478547854786,3,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",2 6 PRE_ALERT
+0.04785478547854786,3,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,5 7 PRE_ALERT
+0.04785478547854786,4,"<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",5 6 7 PRE_ALERT
+0.04702970297029703,2,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | PRE_ALERT",299 PRE_ALERT
+0.04702970297029703,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected",4 5 7
+0.04702970297029703,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",4 5 6 7
+0.04702970297029703,3,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT",299 300 PRE_ALERT
+0.0462046204620462,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",4 5 6 PRE_ALERT
+0.0462046204620462,3,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | PRE_ALERT",4 5 PRE_ALERT
+0.04537953795379538,4,"<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",4 5 7 PRE_ALERT
+0.04537953795379538,1,suppressing further interrupts of same type,137
+0.04455445544554455,1,<NUM> double-hummer alignment exceptions,11
+0.04372937293729373,1,critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire,153
+0.0429042904290429,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected",12 4 55
+0.0429042904290429,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",12 4 55 6
+0.0429042904290429,1,Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,116
+0.04207920792079208,2,suppressing further interrupts of same type | critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire,137 153
+0.04207920792079208,3,MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,2 7 PRE_ALERT
+0.04207920792079208,3,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",2 6 7
+0.04207920792079208,2,MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | total of <NUM> ddr error(s) detected and corrected,2 7
+0.04207920792079208,4,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",2 6 7 PRE_ALERT
+0.04207920792079208,2,suppressing further interrupts of same type | PRE_ALERT,137 PRE_ALERT
+0.041254125412541254,2,"CE sym <NUM>, at <HEX>, mask <HEX> | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",6 8
+0.041254125412541254,2,Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*> | PRE_ALERT,116 PRE_ALERT
+0.041254125412541254,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | PRE_ALERT",12 4 55 PRE_ALERT
+0.041254125412541254,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected",12 4 55 7
+0.041254125412541254,3,"CE sym <NUM>, at <HEX>, mask <HEX> | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM> | PRE_ALERT",6 8 PRE_ALERT
+0.040429042904290426,1,ciod: generated <NUM> core files for program <*>,259
+0.040429042904290426,2,critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire | PRE_ALERT,153 PRE_ALERT
+0.038778877887788776,3,suppressing further interrupts of same type | critical input interrupt (unit=<HEX> bit=<HEX>): warning for <*> <*> wire | PRE_ALERT,137 153 PRE_ALERT
+0.036303630363036306,2,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM>",2 4
+0.036303630363036306,1,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds,297
+0.03547854785478548,4,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",2 4 6 PRE_ALERT
+0.03547854785478548,4,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT",2 4 7 PRE_ALERT
+0.03547854785478548,3,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX>",2 4 6
+0.03547854785478548,3,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected",2 4 7
+0.03547854785478548,4,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",2 4 6 7
+0.03547854785478548,3,"MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | PRE_ALERT",2 4 PRE_ALERT
+0.033003300330033,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds,297 300
+0.033003300330033,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | PRE_ALERT,297 PRE_ALERT
+0.03217821782178218,2,total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>,7 8
+0.03217821782178218,3,total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM> | PRE_ALERT,7 8 PRE_ALERT
+0.03135313531353135,2,ciod: generated <NUM> core files for program <*> | PRE_ALERT,259 PRE_ALERT
+0.03135313531353135,3,"CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",6 7 8
+0.03135313531353135,4,"CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM> | PRE_ALERT",6 7 8 PRE_ALERT
+0.03135313531353135,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds",297 299 300
+0.03135313531353135,2,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds",297 299
+0.03052805280528053,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT,297 300 PRE_ALERT
+0.03052805280528053,2,generating core.<NUM> | PRE_ALERT,3 PRE_ALERT
+0.0297029702970297,2,"Kill job <NUM> timed out. Block freed. | CE sym <NUM>, at <HEX>, mask <HEX>",154 6
+0.028877887788778877,1,<NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr.,385
+0.028877887788778877,2,"<NUM> microseconds spent in the rbs signal handler during <NUM> calls. <NUM> microseconds was the maximum time for a single instance of a correctable ddr. | <NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.",385 386
+0.028877887788778877,2,"total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX>",300 6
+0.028877887788778877,3,"Kill job <NUM> timed out. Block freed. | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",154 6 PRE_ALERT
+0.028877887788778877,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | PRE_ALERT",297 299 PRE_ALERT
+0.028877887788778877,1,"<NUM> total interrupts. <NUM> critical input interrupts. <NUM> microseconds total spent on critical input interrupts, <NUM> microseconds max time in a critical input interrupt.",386
+0.028877887788778877,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT",297 299 300 PRE_ALERT
+0.028052805280528052,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",12 5 6
+0.028052805280528052,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected,12 5
+0.027227722772277228,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | PRE_ALERT,12 5 PRE_ALERT
+0.027227722772277228,1,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,301
+0.027227722772277228,1,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,298
+0.027227722772277228,3,"total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",300 6 PRE_ALERT
+0.027227722772277228,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",12 5 6 PRE_ALERT
+0.026402640264026403,2,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT,298 PRE_ALERT
+0.026402640264026403,2,total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,300 301
+0.026402640264026403,4,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | PRE_ALERT,12 5 7 PRE_ALERT
+0.026402640264026403,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",12 5 6 7
+0.026402640264026403,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | CE sym <NUM>, at <HEX>, mask <HEX>",12 4 5 6
+0.026402640264026403,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected",12 4 5
+0.026402640264026403,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected,12 5 7
+0.02557755775577558,1,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.,115
+0.02557755775577558,3,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds",299 300 301
+0.02557755775577558,2,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds",299 301
+0.02557755775577558,2,<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT,301 PRE_ALERT
+0.02557755775577558,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,297 298
+0.02557755775577558,2,"instruction cache parity error corrected | CE sym <NUM>, at <HEX>, mask <HEX>",1 6
+0.02557755775577558,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | PRE_ALERT",12 4 5 PRE_ALERT
+0.02557755775577558,3,"instruction cache parity error corrected | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",1 6 PRE_ALERT
+0.024752475247524754,1,Can not get assembly information for node card,114
+0.024752475247524754,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT,297 298 PRE_ALERT
+0.024752475247524754,2,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds,298 300
+0.024752475247524754,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected",12 4 5 7
+0.024752475247524754,2,instruction cache parity error corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>,1 8
+0.024752475247524754,3,total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT,300 301 PRE_ALERT
+0.024752475247524754,2,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX>",299 6
+0.024752475247524754,3,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX>",299 300 6
+0.024752475247524754,2,Can not get assembly information for node card | Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.,114 115
+0.02392739273927393,2,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds",298 299
+0.02392739273927393,4,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT",299 300 301 PRE_ALERT
+0.02392739273927393,3,instruction cache parity error corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM> | PRE_ALERT,1 8 PRE_ALERT
+0.02392739273927393,3,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | PRE_ALERT",299 301 PRE_ALERT
+0.02392739273927393,3,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds",298 299 300
+0.02392739273927393,3,<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT,298 300 PRE_ALERT
+0.0231023102310231,4,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT",298 299 300 PRE_ALERT
+0.0231023102310231,1,Node card is not fully functional,113
+0.0231023102310231,2,Node card is not fully functional | Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.,113 115
+0.0231023102310231,3,"<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | PRE_ALERT",298 299 PRE_ALERT
+0.0231023102310231,3,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",299 6 PRE_ALERT
+0.0231023102310231,3,Node card is not fully functional | Can not get assembly information for node card | Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK.,113 114 115
+0.0231023102310231,4,"<NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | CE sym <NUM>, at <HEX>, mask <HEX> | PRE_ALERT",299 300 6 PRE_ALERT
+0.0231023102310231,2,Node card is not fully functional | Can not get assembly information for node card,113 114
+0.0231023102310231,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds,297 298 300
+0.022277227722772276,1,"ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",256
+0.022277227722772276,2,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK. | Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,115 116
+0.022277227722772276,2,"ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card | PRE_ALERT",256 PRE_ALERT
+0.022277227722772276,4,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | PRE_ALERT,297 298 300 PRE_ALERT
+0.022277227722772276,3,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds",297 298 299
+0.022277227722772276,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds",297 298 299 300
+0.02145214521452145,2,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK. | PRE_ALERT,115 PRE_ALERT
+0.02145214521452145,2,Can not get assembly information for node card | Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,114 116
+0.02145214521452145,3,Can not get assembly information for node card | Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK. | Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,114 115 116
+0.02145214521452145,2,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,297 301
+0.02145214521452145,4,"<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected over <NUM> seconds | <NUM> ddr error(s) detected and corrected on rank <NUM>, symbol <NUM> over <NUM> seconds | PRE_ALERT",297 298 299 PRE_ALERT
+0.020627062706270627,2,Kill job <NUM> timed out. Block freed. | total of <NUM> ddr error(s) detected and corrected,154 7
+0.020627062706270627,2,"suppressing further interrupts of same type | CE sym <NUM>, at <HEX>, mask <HEX>",137 6
+0.020627062706270627,3,Can not get assembly information for node card | Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK. | PRE_ALERT,114 115 PRE_ALERT
+0.020627062706270627,2,Can not get assembly information for node card | PRE_ALERT,114 PRE_ALERT
+0.020627062706270627,3,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM>.<NUM> volt rail is OK. The <NUM>.<NUM> volt rail is OK. | Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*> | PRE_ALERT,115 116 PRE_ALERT
+0.020627062706270627,3,<NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected over <NUM> seconds | total of <NUM> ddr error(s) detected and corrected over <NUM> seconds | <NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected over <NUM> seconds,297 300 301

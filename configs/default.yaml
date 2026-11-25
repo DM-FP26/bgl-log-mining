@@ -64,6 +64,10 @@ patterns:
   seq_min_support: 0.05
   seq_min_ratio: 2.0
   stability_seed: 43
+  max_len: 4                     # max itemset size for FP-Growth (keeps rules readable and fast)
+  seq_minlen: 2
+  seq_maxlen: 5
+  holdout_fraction: 0.3          # temporal hold-out check: mine on the first 70% of bursts, test on the last 30%
 
 embed:
   pooling: mean                  # mean | last

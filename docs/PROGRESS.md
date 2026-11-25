@@ -7,7 +7,7 @@ Claude Code updates this file at the end of every stage. Status values: `todo`, 
 | S00 | Setup and scaffolding | done | 2026-11-25 | `pyproject.toml`, `src/bgllog/io.py`, `configs/`, `requirements.lock.txt`, `docs/notes/S00-setup.md` | 20 tests pass; repo public in DM-FP26 |
 | S01 | Data acquisition + EDA | done | 2026-11-25 | `scripts/s01_download_and_eda.py`, `src/bgllog/parsing.py`, `reports/tables/*`, `reports/figures/eda_*.png`, `docs/notes/S01-data-and-eda.md` | 27 tests pass; counts match published figures exactly |
 | S02 | Preprocessing | done | 2026-11-25 | `scripts/s02_preprocess.py`, `src/bgllog/windows.py`, `data/processed/templates.csv`, `artifacts/drain3_state.bin`, `artifacts/vocab.json`, `handoff/windows.npz`, notes (ID + EN) | 396 templates, 474,795 windows; test split has 60.5% UNK tokens (concept drift), see decisions |
-| S03 | Pattern mining | todo | | | |
+| S03 | Pattern mining | done | 2026-11-25 | `scripts/s03_patterns.py`, `src/bgllog/patterns.py`, `reports/tables/{frequent_itemsets,association_rules,sequential_patterns_prealert,pattern_examples}.csv`, `artifacts/patterns/*`, `reports/figures/pat_*.png`, notes (ID + EN) | 606 P + 606 C windows, 83 rules, 293 sequences; 4 honesty checks pass; low recall |
 | S04 | Training code + handoff package | done | 2026-11-25 | `src/bgllog/{models,train,embed}.py`, `scripts/{train,check_gpu,s04_make_handoff}.py`, `scripts/train_all.ps1`, `docs/GPU-HANDOFF-FRIEND.md`, notes (ID + EN) | 43 tests pass; train_all.ps1 untested on Windows; GPU teammate account still to confirm |
 | S05 | GPU hand-off, merge, embeddings | waiting | | | waits for teammate pushing `gpu-run` |
 | S06 | Clustering | todo | | | |
@@ -28,6 +28,7 @@ Record every deviation from the specs here (date, stage, what, why).
 | 2026-11-25 | S00 | Git commits use the GitHub noreply email | The repo is public, so the author email would be visible to everyone |
 | 2026-11-25 | all | Added S10 (slides) and S11 (break-it-on-purpose demos) | Lecturer's new requirements; details in `docs/04-lecturer-additions.md` |
 | 2026-11-25 | S01 | `--sample` offset set to 3,000,000 in config; parser tolerates a missing node-repeat field and empty messages | Real data differs from the assumed layout (324 lines lack the repeat field; 34,470 messages are empty) |
+| 2026-11-25 | S03 | Dropped pre-alert windows that contain alert lines from an earlier burst (214 of 820); itemset size capped at 4; C support counted directly; added time-matched-control and 70/30 temporal hold-out checks | Avoid circular mining; keep rules readable; a suspected time confound had to be tested (it did not hold up) |
 | 2026-11-25 | S04 | Added baseline `repeat_last` and metric `top1_on_changes`; test metrics written for all windows AND UNK-free windows | Plain top-1 is inflated by repetition (repeat-last already scores 94 to 96%) |
 | 2026-11-25 | S04 | Manual batching instead of a DataLoader | Whole train set fits on the device (53 MB); avoids Windows worker issues |
 | 2026-11-25 | S02 | Added mask `HEXW` (bare hex words) and `NUM`; Drain3 fed unique messages only | 630 singleton templates before HEXW; unique-only is equivalent and about 20 s |
@@ -36,4 +37,4 @@ Record every deviation from the specs here (date, stage, what, why).
 
 ## Next action
 
-Send the GPU teammate `docs/GPU-HANDOFF-FRIEND.md` and the repo URL (message printed in chat at the end of S04). Confirm which GitHub account is the teammate (`Bima-031` has write access, `najwarjombi` does not). While waiting: S03 (pattern mining) and the S01 to S03 parts of the report draft. When the teammate says "pushed": merge `origin/gpu-run` and run S05.
+Waiting on the GPU teammate (S05). Send them `docs/GPU-HANDOFF-FRIEND.md` and the repo URL; confirm their GitHub account (Bima-031 has write access, najwarjombi did not at last check). Meanwhile: draft the S01 to S03 report chapters (S09 skeleton), or train on CPU here if Nafi prefers (about 150 s per epoch). When the teammate says "pushed", run S05.

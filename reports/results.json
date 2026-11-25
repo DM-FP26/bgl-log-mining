@@ -257,5 +257,261 @@
       },
       "n_params": 277937
     }
+  },
+  "patterns": {
+    "n_bursts": 820,
+    "n_prealert_windows": 606,
+    "n_control_windows": 606,
+    "prealert_counts": {
+      "n_bursts": 820,
+      "dropped_no_room": 0,
+      "dropped_contain_alert": 214,
+      "n_prealert": 606
+    },
+    "items_used": 150,
+    "thresholds_used": {
+      "min_support": 0.02,
+      "min_confidence": 0.6,
+      "min_lift": 1.2,
+      "max_len": 4
+    },
+    "n_itemsets": 196,
+    "n_rules": 83,
+    "n_sequential_patterns": 293,
+    "top_rules": [
+      {
+        "antecedent": "MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | total of <NUM> ddr error(s) detected and corrected",
+        "support": 0.04207920792079208,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected",
+        "support": 0.04207920792079208,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "CE sym <NUM>, at <HEX>, mask <HEX> | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",
+        "support": 0.041254125412541254,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | total of <NUM> ddr error(s) detected and corrected",
+        "support": 0.03547854785478548,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "MidplaneSwitchController performing bit sparing on <NODE> bit <NUM> | <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> | CE sym <NUM>, at <HEX>, mask <HEX>",
+        "support": 0.03547854785478548,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",
+        "support": 0.03217821782178218,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "CE sym <NUM>, at <HEX>, mask <HEX> | total of <NUM> ddr error(s) detected and corrected | ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",
+        "support": 0.03135313531353135,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "<NUM> <*> <*> error(s) (dcr <HEX>) detected and corrected | total of <NUM> ddr error(s) detected and corrected | <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "support": 0.026402640264026403,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "instruction cache parity error corrected | CE sym <NUM>, at <HEX>, mask <HEX>",
+        "support": 0.02557755775577558,
+        "confidence": 1.0,
+        "lift": 2.0
+      },
+      {
+        "antecedent": "ddr: Unable to steer rank=<NUM>, symbol=<NUM> - rank is already steering symbol <NUM>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "support": 0.022277227722772276,
+        "confidence": 1.0,
+        "lift": 2.0
+      }
+    ],
+    "top_seq_patterns": [
+      {
+        "pattern": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> total of <NUM> ddr error(s) detected and corrected -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.11386138613861387,
+        "support_ctrl": 0.0,
+        "ratio": 113.86138613861387
+      },
+      {
+        "pattern": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> total of <NUM> ddr error(s) detected and corrected -> CE sym <NUM>, at <HEX>, mask <HEX> -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.10891089108910891,
+        "support_ctrl": 0.0,
+        "ratio": 108.91089108910892
+      },
+      {
+        "pattern": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> CE sym <NUM>, at <HEX>, mask <HEX> -> total of <NUM> ddr error(s) detected and corrected -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.10726072607260725,
+        "support_ctrl": 0.0,
+        "ratio": 107.26072607260726
+      },
+      {
+        "pattern": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> CE sym <NUM>, at <HEX>, mask <HEX> -> <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> total of <NUM> ddr error(s) detected and corrected -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.10231023102310231,
+        "support_ctrl": 0.0,
+        "ratio": 102.3102310231023
+      },
+      {
+        "pattern": "<NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected -> <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "support_pre": 0.09900990099009901,
+        "support_ctrl": 0.0,
+        "ratio": 99.00990099009901
+      },
+      {
+        "pattern": "CE sym <NUM>, at <HEX>, mask <HEX> -> CE sym <NUM>, at <HEX>, mask <HEX> -> <NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> total of <NUM> ddr error(s) detected and corrected -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.0891089108910891,
+        "support_ctrl": 0.0,
+        "ratio": 89.10891089108911
+      },
+      {
+        "pattern": "CE sym <NUM>, at <HEX>, mask <HEX> -> ddr: activating redundant bit steering: rank=<NUM> symbol=<NUM>",
+        "support_pre": 0.07920792079207921,
+        "support_ctrl": 0.0,
+        "ratio": 79.20792079207921
+      },
+      {
+        "pattern": "<NUM> ddr errors(s) detected and corrected on rank <NUM>, symbol <NUM>, bit <NUM> -> CE sym <NUM>, at <HEX>, mask <HEX> -> CE sym <NUM>, at <HEX>, mask <HEX> -> total of <NUM> ddr error(s) detected and corrected -> total of <NUM> ddr error(s) detected and corrected",
+        "support_pre": 0.13036303630363036,
+        "support_ctrl": 0.0016501650165016502,
+        "ratio": 79.0
+      },
+      {
+        "pattern": "CE sym <NUM>, at <HEX>, mask <HEX> -> <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected -> <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "support_pre": 0.07425742574257425,
+        "support_ctrl": 0.0,
+        "ratio": 74.25742574257426
+      },
+      {
+        "pattern": "total of <NUM> ddr error(s) detected and corrected -> <NUM> torus receiver <*> input pipe error(s) (dcr <HEX>) detected and corrected -> <NUM> tree receiver <NUM> in re-synch state event(s) (dcr <HEX>) detected",
+        "support_pre": 0.07260726072607261,
+        "support_ctrl": 0.0,
+        "ratio": 72.60726072607261
+      }
+    ],
+    "checks": {
+      "threshold_steps_rules": [
+        {
+          "min_support": 0.02,
+          "min_confidence": 0.6,
+          "n_itemsets": 196,
+          "n_rules": 83
+        }
+      ],
+      "threshold_steps_sequences": [
+        {
+          "seq_min_support": 0.05,
+          "n_patterns": 293
+        }
+      ],
+      "share_top_rules_with_error_level_template": 0.1,
+      "share_top_rules_with_alert_labelled_template": 0.0,
+      "stability_seed43": {
+        "top20_in_top20_again": 16,
+        "top20_found_anywhere_again": 20,
+        "n_rules_seed43": 83
+      },
+      "temporal_holdout": {
+        "n_rules_mined_early": 86,
+        "late_pre_alert_windows": 206,
+        "late_control_windows": 158,
+        "top20_median_lift_late": 1.766990291262136,
+        "top20_share_lift_ge_min_lift_late": 0.6
+      },
+      "time_matched_control": {
+        "months_used": [
+          "2005-06",
+          "2005-07",
+          "2005-08",
+          "2005-09",
+          "2005-10",
+          "2005-11",
+          "2005-12",
+          "2006-01"
+        ],
+        "n_pre_alert": 606,
+        "n_control": 606,
+        "top20_median_lift": 2.0,
+        "top20_share_lift_ge_min_lift": 1.0,
+        "n_rules_remined": 79,
+        "top20_found_in_remined": 20
+      },
+      "time_composition": {
+        "pre_alert_by_month": {
+          "2005-06": 61,
+          "2005-07": 83,
+          "2005-08": 110,
+          "2005-09": 110,
+          "2005-10": 81,
+          "2005-11": 95,
+          "2005-12": 63,
+          "2006-01": 3
+        },
+        "control_by_month": {
+          "2005-06": 111,
+          "2005-07": 259,
+          "2005-08": 52,
+          "2005-09": 21,
+          "2005-10": 27,
+          "2005-11": 95,
+          "2005-12": 41
+        },
+        "pre_alert_by_tag": {
+          "KERNMC": 247,
+          "KERNTERM": 60,
+          "APPSEV": 55,
+          "KERNRTSP": 38,
+          "KERNMNTF": 37,
+          "KERNSOCK": 27,
+          "KERNCON": 15,
+          "KERNDTLB": 13,
+          "KERNPOW": 9,
+          "KERNSTOR": 8,
+          "MASABNORM": 8,
+          "MONPOW": 8,
+          "LINKIAP": 8,
+          "MASNORM": 7,
+          "KERNPAN": 7,
+          "APPREAD": 6,
+          "KERNNOETH": 6,
+          "LINKPAP": 5,
+          "KERNMNT": 5,
+          "LINKDISC": 4,
+          "APPTORUS": 4,
+          "KERNMICRO": 4,
+          "APPCHILD": 3,
+          "APPUNAV": 3,
+          "APPALLOC": 2,
+          "KERNPROG": 2,
+          "KERNSERV": 2,
+          "APPTO": 2,
+          "APPBUSY": 1,
+          "KERNEXT": 1,
+          "KERNFLOAT": 1,
+          "KERNBIT": 1,
+          "MMCS": 1,
+          "APPRES": 1,
+          "MONILL": 1,
+          "LINKBLL": 1,
+          "KERNTLBE": 1,
+          "APPOUT": 1,
+          "KERNRTSA": 1
+        }
+      },
+      "control_baseline_note": "P and C are balanced, so PRE_ALERT support is 0.5 and lift = confidence / 0.5 (max 2.0)."
+    }
   }
 }
