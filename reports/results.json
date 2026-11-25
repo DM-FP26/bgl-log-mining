@@ -32,6 +32,17 @@
       "max_burst_size": 152183,
       "share_alerts_in_bursts_ge10": 0.9964673133214716,
       "share_alerts_in_bursts_ge2": 0.9994088274120415
+    },
+    "n_templates": 396,
+    "n_windows": 474795,
+    "n_windows_with_alert": 40514,
+    "window_size": 20,
+    "window_step": 10,
+    "split_sizes": {
+      "train": 332356,
+      "val": 71219,
+      "test": 71216,
+      "gap": 4
     }
   },
   "dirty_data": {
@@ -55,5 +66,74 @@
       "28800": 1078351
     },
     "n_time_gaps_over_1h": 1005
+  },
+  "preprocessing": {
+    "n_lines": 4747963,
+    "n_lines_windowed": 4747963,
+    "n_malformed_excluded": 0,
+    "n_unique_messages": 358360,
+    "n_templates": 396,
+    "lines_changed_by_cleaning": 34474,
+    "templates_covering_99pct_lines": 102,
+    "singleton_templates": 21,
+    "vocab_size_incl_pad_unk": 241,
+    "n_windows": 474795,
+    "n_windows_with_alert": 40514,
+    "window_alert_ratio_all": 0.08532945797660042,
+    "window_size": 20,
+    "window_step": 10,
+    "gap_windows": 2,
+    "config_hash": "8bc744b3b253",
+    "per_split": {
+      "train": {
+        "n_windows": 332356,
+        "alert_window_ratio": 0.08996678260660255,
+        "n_alert_windows": 29901,
+        "unk_ratio": 1.6548520261406443e-05,
+        "windows_with_any_unk_ratio": 0.00022265281806255942,
+        "windows_majority_unk_ratio": 0.0,
+        "n_windows_unk_free": 332282,
+        "n_alert_windows_unk_free": 29867,
+        "first_ts": 1117838570,
+        "last_ts": 1125694247
+      },
+      "val": {
+        "n_windows": 71219,
+        "alert_window_ratio": 0.06467375279068788,
+        "n_alert_windows": 4606,
+        "unk_ratio": 0.02161221022479956,
+        "windows_with_any_unk_ratio": 0.026116626181215685,
+        "windows_majority_unk_ratio": 0.021075836504303627,
+        "n_windows_unk_free": 69359,
+        "n_alert_windows_unk_free": 4467,
+        "first_ts": 1125694247,
+        "last_ts": 1131148265
+      },
+      "test": {
+        "n_windows": 71216,
+        "alert_window_ratio": 0.08432093911480566,
+        "n_alert_windows": 6005,
+        "unk_ratio": 0.6047250617838688,
+        "windows_with_any_unk_ratio": 0.6439564142889238,
+        "windows_majority_unk_ratio": 0.601887216355875,
+        "n_windows_unk_free": 25356,
+        "n_alert_windows_unk_free": 1056,
+        "first_ts": 1131148265,
+        "last_ts": 1136390405
+      }
+    },
+    "drain": {
+      "depth": 4,
+      "sim_th": 0.4,
+      "max_children": 100
+    },
+    "masks": [
+      "HEX",
+      "IP",
+      "NODE",
+      "HEXW",
+      "PATH",
+      "NUM"
+    ]
   }
 }
