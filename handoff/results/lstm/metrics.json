@@ -1,0 +1,39 @@
+{
+  "model": "lstm",
+  "best_epoch": 9,
+  "best_val_loss": 0.37127902581552563,
+  "test": {
+    "loss": 0.5947910104906824,
+    "perplexity": 1.812652080103361,
+    "top1": 0.9576654861710556,
+    "top5": 0.975995932315624,
+    "top1_on_changes": 0.31719558738955406,
+    "n_change_tokens": 57381,
+    "n_tokens": 1353104,
+    "n_windows": 71216
+  },
+  "test_unk_free": {
+    "loss": 0.17549832590682934,
+    "perplexity": 1.1918399933983985,
+    "top1": 0.9602627012396111,
+    "top5": 0.9922576199134846,
+    "top1_on_changes": 0.4502591051748048,
+    "n_change_tokens": 27402,
+    "n_tokens": 481764,
+    "n_windows": 25356
+  },
+  "val": {
+    "loss": 0.37127902581552563,
+    "perplexity": 1.4495874892941576,
+    "top1": 0.9164888730904897,
+    "top5": 0.9867916678059743,
+    "top1_on_changes": 0.45150914584619384,
+    "n_change_tokens": 153895,
+    "n_tokens": 1353161,
+    "n_windows": 71219
+  },
+  "n_params": 277937,
+  "epochs_run": 12,
+  "device": "cuda",
+  "seed": 42
+}

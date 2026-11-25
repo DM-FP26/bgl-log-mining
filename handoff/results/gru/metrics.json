@@ -1,0 +1,39 @@
+{
+  "model": "gru",
+  "best_epoch": 7,
+  "best_val_loss": 0.4109108547928687,
+  "test": {
+    "loss": 0.7116785901857703,
+    "perplexity": 2.0374083635684954,
+    "top1": 0.9603393382918091,
+    "top5": 0.9771222315505682,
+    "top1_on_changes": 0.32719889859012563,
+    "n_change_tokens": 57381,
+    "n_tokens": 1353104,
+    "n_windows": 71216
+  },
+  "test_unk_free": {
+    "loss": 0.18230826378763407,
+    "perplexity": 1.1999840484984372,
+    "top1": 0.9602253385475046,
+    "top5": 0.9925419915145175,
+    "top1_on_changes": 0.4633238449748194,
+    "n_change_tokens": 27402,
+    "n_tokens": 481764,
+    "n_windows": 25356
+  },
+  "val": {
+    "loss": 0.4109108547928687,
+    "perplexity": 1.5081909025747795,
+    "top1": 0.9152975883874868,
+    "top5": 0.9812505681142155,
+    "top1_on_changes": 0.4486825432925046,
+    "n_change_tokens": 153895,
+    "n_tokens": 1353161,
+    "n_windows": 71219
+  },
+  "n_params": 220081,
+  "epochs_run": 10,
+  "device": "cuda",
+  "seed": 42
+}
