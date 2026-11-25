@@ -28,7 +28,7 @@ Take the Blue Gene/L (BGL) supercomputer logs from Loghub. Turn the raw, unstruc
 2. **Specs are firm about outputs and checks, loose about tuning.** If the data contradicts a default (for example the template count explodes), fix the cause, record it in the stage note, move on.
 3. **Every stage ends with all four of these:**
    a. every "Definition of done" check passes,
-   b. a note `docs/notes/Sxx-<name>.md` written in **simple Indonesian** (format in `docs/notes/README.md`),
+   b. two notes: `docs/notes/Sxx-<name>.md` in **simple Indonesian** (for the team and presentation) and `docs/notes/en/Sxx-<name>.md` in **English, technical, step by step** (for internal use); format in `docs/notes/README.md`,
    c. `docs/PROGRESS.md` updated,
    d. a git commit `Sxx: <what>`.
 4. **Never fabricate numbers.** Every number in notes, report draft or app comes from a file under `artifacts/` or `reports/`. `reports/results.json` is the single source of truth.
@@ -39,7 +39,7 @@ Take the Blue Gene/L (BGL) supercomputer logs from Loghub. Turn the raw, unstruc
 9. **Keep it simple.** Plain scripts plus a small package `src/bgllog/`. No Hydra, MLflow, or Docker.
 10. **Tests.** Light pytest: parsing, windowing and labeling, split leakage, plus one tiny end-to-end smoke test on a 2,000-line sample.
 11. **Lecturer additions.** S10 (slides, from Nafi's .pptx template) and S11 (each of 5 students breaks one phase on purpose) come after S08. Do not pick the S11 scenarios yourself; Nafi decides. While building S01 to S08, keep choices in config flags so a phase can be switched off cleanly (details in `docs/04-lecturer-additions.md`).
-12. **Language.** Code, comments, commit messages, docs: English. Notes in `docs/notes/`, the report draft and the defense pack: Indonesian.
+12. **Language.** Code, comments, commit messages, docs: English. Notes in `docs/notes/` exist in both languages (Indonesian for presentation, `docs/notes/en/` for internal); the report draft and the defense pack: Indonesian.
 
 ## 4. The GPU hand-off (the one human-in-the-loop moment)
 

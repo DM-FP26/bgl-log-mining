@@ -1,6 +1,10 @@
-# Notes format (written by Claude Code, in simple Indonesian)
+# Notes format (written by Claude Code)
 
-One note per stage: `docs/notes/Sxx-<name>.md`. The audience is the five teammates, two of whom did not write any code. Keep each note to one page.
+Two notes per stage, same name:
+- `docs/notes/Sxx-<name>.md`: **Indonesian**, simple, for the team and the presentation (format below).
+- `docs/notes/en/Sxx-<name>.md`: **English**, technical and step by step, for internal use: ordered steps with exact commands, decisions and why, problems hit and fixes, caveats, how to reproduce. Numbers must come from result files here too.
+
+Indonesian note details: The audience is the five teammates, two of whom did not write any code. Keep each note to one page.
 
 Required structure:
 
